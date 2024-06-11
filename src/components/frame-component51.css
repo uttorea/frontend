@@ -156,9 +156,11 @@ padding-top: 60px;
 }
 .assentmname{
   margin-top: 16px;
+  cursor: pointer;
 }
 .deassentmname{
   margin-top: 15px;
+  cursor: pointer;
 }
 .dessentnmimagesection{
   width: 628px;

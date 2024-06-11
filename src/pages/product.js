@@ -38,7 +38,7 @@ const Product = () => {
         <div className="allpages ">
         <Product3 id='asentm'/>
         <FrameComponent4/>
-        <Product4/>
+        <Product4 id='dicerisTm'/>
         <FrameComponent3/>
 
         <section className="frame-wrapper" >

@@ -36,7 +36,7 @@ const FrameComponent = () => {
         <div className="footer-section-products">
           <h3>Product</h3>
           <p><Link smooth to="/product#asentm">Multirotor Recovery system</Link></p>
-          <p><Link to="/product">Fixed wing Recovery system</Link></p>
+          <p><Link smooth to="/product#dicerisTm">Fixed wing Recovery system</Link></p>
         </div>
         <div className="footer-section-services">  
           <h3 className="footer-service">Services</h3>

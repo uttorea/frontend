@@ -1,4 +1,6 @@
-import { useCallback } from "react";
+// import { useCallback } from "react";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import FrameComponent6 from "../components/frame-component6";
 import FrameComponent2 from "../components/frame-component2";
 import FrameComponent1 from "../components/frame-component1";
@@ -14,6 +16,16 @@ import "./home.css";
 import backGround from "../assert/Uttorea H.mp4";
 
 const Home = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const section = document.querySelector(location.hash);
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [location]);
   return (
     <div className="home2">
       <div className="homepagemainimage">
@@ -47,7 +59,7 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <FrameComponent51/>
+        <FrameComponent51 id='discoversection'/>
         <FrameComponent41 />
         <FrameComponent6 />
         <FrameComponent31 />

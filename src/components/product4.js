@@ -1,10 +1,12 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./product3.css";
+import { useNavigate } from "react-router-dom"; // Import useNavigate
 
 const Product4 = () => {
   const [zoomLevel, setZoomLevel] = useState(1);
   const sliderRef = useRef(null);
   const lastTouchYRef = useRef(0);
+  const navigate = useNavigate(); // Initialize useNavigate
 
   // Handle touch start to initialize touch position
   const handleTouchStart = (event) => {
@@ -44,6 +46,10 @@ const Product4 = () => {
   }, [zoomLevel]);
 
   const translateYValue = (0 + zoomLevel) * 100;
+  const handleButtonClick = () => {
+    navigate('/#discoversection'); // Navigate to home and scroll to section
+  };
+
 
   return (
     <>
@@ -148,7 +154,9 @@ const Product4 = () => {
                 position: "absolute",
                 marginTop: "70px",
               }}>
-              <div className="explore-arsentm-series-parent3">
+              <button
+              onClick={handleButtonClick}
+               className="explore-arsentm-series-parent3">
                 <div className="explore-arsentm-series-container3">
                   <span className="explore-arsentm-series-container13">
                     <span>{`Explore `}</span>
@@ -159,7 +167,7 @@ const Product4 = () => {
                 <div className="vector-wrapper3">
                   <img className="vector-icon1" alt="" src="/vector1.svg" />
                 </div>
-              </div>
+              </button>
             </div>
           </div>
         </div>
