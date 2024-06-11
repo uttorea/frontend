@@ -3,6 +3,9 @@
  background-size: cover;
  background-repeat: no-repeat;
  width: 100%;
+ margin-left: 0;
+ padding-left: 0;
+
 
 }
 .background-video{
@@ -12,13 +15,12 @@
 .gradient-overlayhome {
   position: absolute;
   bottom:0px;
-  
   left: 0;
   width: 100%;
   height: 20%;
-  /* background: url('../../public/Gradient.svg');  */
-/* opacity: 0.1;
-  background: linear-gradient(to top, #1c1c36f6, #4f4d63, #868494, #c8c7cc, #ffffffcd); */
+  top: 65%;
+  opacity: 100%;
+ /* background-color: red; */
   pointer-events: none; 
 }
 
@@ -689,7 +691,7 @@
   width: 100%;
   /* height: 9635px; */
   position: relative;
-  overflow-y: auto;
+  overflow:hidden;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -702,7 +704,7 @@
   font-size: var(--font-size-5xl);
   color: var(--color-whitesmoke-300);
   font-family: var(--font-urbanist);
- 
+ margin: 0;
 }
 
 @media screen and (max-width: 1725px) {

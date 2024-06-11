@@ -33,7 +33,8 @@ const FrameComponent51 = () => {
                 <div className="assentimage12 ">
                   <img className="asentimageicon" alt="" src="/image-541@2x.png"/>
                   <hr className="assentnmhr" />
-                  <div className="assentmname">Explore Arsen<sup>TM</sup> Series <spam><img alt="" className="svgicondecent" src="./vector1.svg"/></spam></div>
+                  <div className="assentmname"
+                  onClick={onFrameContainer1Click}>Explore Arsen<sup>TM</sup> Series <spam><img alt="" className="svgicondecent" src="./vector1.svg"/></spam></div>
                 </div>
               </div>
 
@@ -42,7 +43,8 @@ const FrameComponent51 = () => {
                 <div className="assentimage123">
                   <img className="decntmimageicon" alt="" src="/unnamed 7.png"/>
                   <hr style={{color:'cyan',height:'3px', border:'none',backgroundColor:'cyan', width:'100%'}}/>
-                  <div className="deassentmname">Explore Diceris<sup>TM</sup> Series <spam><img alt="" className="svgicondecent" src="./vector1.svg"/></spam></div>
+                  <div className="deassentmname"
+                  onClick={onFrameContainer12Click}>Explore Diceris<sup>TM</sup> Series <spam><img alt="" className="svgicondecent" src="./vector1.svg"/></spam></div>
                 </div>
               
               </div>

@@ -7,9 +7,9 @@ const FrameComponent42 = () => {
 
   const navigate = useNavigate();
 
-  const onFrameButtonClick = useCallback(() => {
-    navigate("/");
-  }, [navigate]);
+  const onFrameButtonClick = () => {
+    navigate('/product'); // Navigate to home and scroll to section
+  };
   return (
     
       <div className="frame-parent44">
