@@ -1,0 +1,223 @@
+.our-plug-and {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: 48px;
+  letter-spacing: 0.04em;
+  line-height: 89px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: urbanist;
+  z-index: 1;
+}
+.airframe-specific,
+.composite-housing-structure {
+  margin: 0;
+}
+.airframe-specific-composite-container {
+  flex: 1;
+  position: relative;
+  line-height: 29px;
+  text-transform: capitalize;
+}
+.div2 {
+  width: 250px;
+  box-shadow: var(--blue-blur);
+  border-radius: var(--br-5xs);
+  background: linear-gradient(
+    114.03deg,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0)
+  );
+  border: 1px solid var(--color-whitesmoke-400);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-57xl) var(--padding-3xl);
+}
+.airframe-attachment-and,
+.quicklinks-and-carabiners {
+  margin: 0;
+}
+.quicklinks-and-carabiners-container {
+  flex: 1;
+  position: relative;
+  line-height: 29px;
+  text-transform: capitalize;
+}
+.div3 {
+  width: 275px;
+  box-shadow: var(--blue-blur);
+  border-radius: var(--br-5xs);
+  background: linear-gradient(
+    114.03deg,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0)
+  );
+  border: 1px solid var(--color-whitesmoke-400);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-57xl) var(--padding-3xl);
+}
+.electro-mechanical-pyrotechni1,
+.triggered-through-pwmelectric {
+  margin: 0;
+}
+.electro-mechanical-pyrotechni {
+  flex: 1;
+  position: relative;
+  line-height: 29px;
+  text-transform: capitalize;
+}
+.div4 {
+  flex: 1;
+  box-shadow: var(--blue-blur);
+  border-radius: var(--br-5xs);
+  background: linear-gradient(
+    114.03deg,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0)
+  );
+  border: 1px solid var(--color-whitesmoke-400);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-57xl) var(--padding-3xl);
+  min-width: 227px;
+  max-width: 100%;
+}
+.maintenance-manual,
+.operations-and {
+  margin: 0;
+}
+.operations-and-maintenance-container {
+  flex: 1;
+  position: relative;
+  line-height: 29px;
+  text-transform: capitalize;
+}
+.div5 {
+  width: 275px;
+  box-shadow: var(--blue-blur);
+  border-radius: var(--br-5xs);
+  background: linear-gradient(
+    114.03deg,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0)
+  );
+  border: 1px solid var(--color-whitesmoke-400);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-86xl) var(--padding-3xl);
+}
+.canopyairbag,
+.customized-parachute {
+  margin: 0;
+}
+.customized-parachute-canopyai {
+  flex: 1;
+  position: relative;
+  line-height: 29px;
+  text-transform: capitalize;
+}
+.div6 {
+  width: 250px;
+  box-shadow: var(--blue-blur);
+  border-radius: var(--br-5xs);
+  background: linear-gradient(
+    114.03deg,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0)
+  );
+  border: 1px solid var(--color-whitesmoke-400);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-86xl) var(--padding-3xl);
+}
+.group,
+.our-plug-and-play-systems-incl-parent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.group {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap-11xl);
+  z-index: 1;
+  font-size: var(--font-size-5xl);
+  color: var(--white);
+  font-family: var(--font-poppins);
+}
+.our-plug-and-play-systems-incl-parent {
+  margin-top: 8%;
+  width: 1520px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-32xl);
+}
+.frame-wrapper8 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  height: 735px;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--cyan);
+  font-family: var(--font-urbanist);
+}
+@media screen and (max-width: 925px) {
+  .our-plug-and {
+    font-size: var(--font-size-19xl);
+    line-height: 71px;
+  }
+  .our-plug-and-play-systems-incl-parent {
+    gap: var(--gap-6xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .our-plug-and {
+    margin-top: 10%;
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .airframe-specific-composite-container,
+  .customized-parachute-canopyai,
+  .electro-mechanical-pyrotechni,
+  .operations-and-maintenance-container,
+  .quicklinks-and-carabiners-container {
+font-size: 16px;
+font-weight: 200;
+font-family: poppins;
+    line-height: 20px;
+  }
+}

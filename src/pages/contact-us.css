@@ -1,0 +1,516 @@
+.contectusmain{
+  width: 100%;
+  font-size: 24px;
+}
+
+.frame-wrapper121{
+  width: 100%;
+}
+.image-25-icon{
+  width: 100%;
+}
+.contectusdivmain{
+  display: flex;
+  gap: 80px;
+  margin-top: -10px;
+  padding-top: 17px;
+  margin-bottom: -10px;
+}
+.contectusleft{
+  width: 35%;
+  position: relative;
+  margin-top: -40px;
+ 
+}
+.frame-parent341{
+  width: 70%;
+
+}
+
+.addressmain,.forinquarymain,.for-sales-inquari-main{
+  margin-left: 33%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  z-index: 3;
+  font-size: var(--font-size-5xl);
+  color: var(--secondary);
+  font-family: urbanist;
+  background: linear-gradient(
+    114.03deg,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0)
+  );
+  border: 1px solid var(--secondary);
+  border-radius: 5px;
+  width: 386px;
+  height: 189px;
+
+}
+.for-sales-inquari-main{
+  margin-top: 10%;
+}
+.forinquarymain{
+  margin-top: 10%;
+}
+.name-group1,.contact-group1{
+  margin-top: 20px;
+  width: 41%;
+}
+.email-group11,.subject-group1{
+width: 41%;
+}
+.email21,.subject21{
+  width: 100%;
+  
+}
+.addressmain{
+  margin-top: 24%;
+}
+.overlay-parent{
+  position: absolute;
+  top: -200px;
+  left: -66.9px;
+  background-color: rgba(19, 19, 26, 0.7);
+  z-index: 1;
+  height:2;
+}
+.contectusdivmain{
+  background-color: var(--background);
+  background-image: url('../../public/Frame\ 427318931\ 1.png');
+  background-repeat: no-repeat;
+  background-position:center bottom;
+
+
+}
+.frame-parent351{
+  display: flex;
+  margin-top: 7%;
+  gap: 48px;
+  
+}
+.frame-parent371{
+  display: flex;
+  width: 100%;
+gap: 48px;
+}
+.name21, .contact21,.email21,.subject21,.message21{
+  font-size: 32px;
+  font-family: urbanist;
+  color: white;
+  
+}
+.message21{
+  margin-top: 35px;
+}
+.subject21{
+  margin-left: 10px;
+}
+
+.frame-parent361{
+ display: flex;
+ margin-top: 2.2%;
+ width: 100%;
+}
+.frame-parent371{
+  
+  width: 100%;
+}
+.rectangle-parent61,.rectangle-parent71,.rectangle-parent91{
+  margin: 20px;
+  margin-top: 30px;
+}
+.your-full-name21 ,.phno-name271,.reason-for-the21,.emailinput1{
+  font-size: 24px;
+  line-height: 48px;
+  font-family: urbanist;
+  background: transparent;
+  border: none;
+  border-bottom: 0.9px solid var(--secondary);
+  outline: none;
+color:#F2F2F8;
+width: 100%;
+}
+
+.reason-for-the21{
+  /* margin-left: 15px */
+}
+
+
+
+.frame-parent381{
+  margin-top: 30px;
+  margin-left: 20px;
+  width: 100%;
+  
+}
+.addresssection h1{
+  padding-left: 45px;
+  font-size: 24px;
+  margin-top: 16px;
+  font-weight: 600;
+  font-family: urbanist;
+  margin-bottom: 20px;
+
+}
+.addresssection p{
+  padding-left: 45px;
+  font-size: 24px;
+ color: white;
+  font-weight: 400;
+  font-family: poppins;
+  margin-top: 0;
+}
+
+.spanelementor-icon1{
+  margin-left: 30px;
+  width: 27.45px;
+  height: 36px;
+}
+.spanelementor-2{
+  margin-left: 30px;
+  width: 36.5px;
+  height: 36px;
+}
+.spanelementor-3{
+  margin-left: 30px;
+  width: 36px;
+  height: 36px;
+}
+.forinquari-heading h1{
+  padding-left: 45px;
+  font-size: 24px;
+  /* margin-top: -10px; */
+  font-weight: 600;
+  font-family: urbanist;
+  margin-bottom:20px;
+
+}
+.forinquari-heading p{
+  padding-left: 45px;
+  font-size: 24px;
+ color: white;
+  font-weight: 400;
+  font-family: poppins;
+  margin-top: 0;
+}
+
+.forsalehead h1{
+  padding-left: 45px;
+  font-size: 24px;
+  /* margin-top: -10px; */
+  font-weight: 600;
+  font-family: urbanist;
+  margin-bottom:20px;
+}
+.forsalehead p{
+  padding-left: 45px;
+  font-size: 24px;
+ color: white;
+  font-weight: 400;
+  font-family: poppins;
+  margin-top: 0;
+}
+
+textarea.frame-child27{
+  margin-top: 30px;
+  border-radius: 5px;
+  overflow: hidden;
+   width: 1033px; 
+   height: 224.53px;
+    resize: none;
+    background-color: transparent;
+    font-family: var(--font-poppins);
+    font-size: var(--font-size-2xl-5);
+    z-index: 1;
+    color: white;
+    outline: none;
+    padding-top: 5px;
+    padding-left: 5px;
+    border: 0.9px solid var(--secondary);
+}
+.send-message-frame1{
+  margin-top: 33px;
+  border-radius: 7.72px;
+  font-size: 24px;
+  font-weight: 400;
+  color: cyan;
+  align-items: center;
+  justify-content: center;
+margin-left: 58.1%;
+background:transparent;
+border: 2px solid cyan;
+margin-bottom: 220px;
+}
+.send-message21{
+
+  height: 50px;
+  padding-top: 20px;
+  width: 306.28px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7.72px;
+
+}
+.send-message21:hover{
+  background-color: var(--color-darkturquoise-200);
+  
+}
+
+@media screen and (max-width: 1350px) {
+
+}
+@media screen and (max-width: 900px) {
+  .contectusmain{
+    width: 100%;
+    
+  }
+  .frame-wrapper121{
+    width: 100%;
+  }
+ 
+  .mapimage{
+    width: 100%;
+  }
+  .image-25-icon{
+    width: 100%;
+  }
+.contectusdivmain{
+  gap: 100px;
+  width: 100%;
+}
+  .contectusleft{
+    width: 28%;
+    margin-top: 0;
+  }
+  .addressmain,.forinquarymain,.for-sales-inquari-main{
+    margin-left: 15%;
+    width: 100%;
+    /* height: ; */
+  
+  }
+  .addresssection h1{
+    padding-left: 15px;
+    font-size: 24px;
+    margin-bottom: 15px;
+  
+  }
+  .addresssection p{
+    padding-left: 15px;
+    font-size: 18px;
+  }
+  .forinquari-heading h1{
+    padding-left: 15px;
+    margin-bottom:15px;
+  
+  }
+  .forinquari-heading p{
+    padding-left: 15px;
+    font-size: 18px;
+  }
+  .spanelementor-icon1{
+    margin-left: 15px;
+  }
+  .spanelementor-2{
+    margin-left: 15px;
+    width: 25.5px;
+    height: 25px;
+  }
+  .spanelementor-3{
+    margin-left: 30px;
+    width: 25px;
+    height: 25px;
+  }
+  .forsalehead h1{
+    padding-left: 15px;
+    font-size: 24px;
+    
+  }
+  .forsalehead p{
+    padding-left: 15px;
+    font-size: 18px;
+  }
+ .frame-parent341{
+  width: 55%;
+ }   
+ .name21, .contact21,.email21,.subject21,.message21{
+  font-size: 26px;  
+}
+.message21{
+  margin-top: 50px;
+}
+.rectangle-parent61,.rectangle-parent71,.rectangle-parent91{
+  margin: 20px;
+  margin-top: 20px;
+}
+.your-full-name21 ,.phno-name271,.reason-for-the21,.emailinput1{
+  font-size: 22px;
+ 
+}
+.reason-for-the21{
+  margin-left: 0;
+}
+.frame-parent371{
+  gap: 70px;
+  width: 90%;
+  margin-top: 0;
+}
+.frame-parent351{
+  gap: 10px;
+  margin-top: 40px;
+}
+.name-group1,.contact-group1{
+width: 100%;
+
+}
+
+
+textarea.frame-child27{
+  width: 100%;
+ 
+}
+  
+.send-message-frame1{
+  margin-top: 33px;
+  border-radius: 7.72px;
+  font-size: 24px;
+  margin-left: 35.1%;
+
+}
+.send-message21{
+  height: 50px;
+  padding-top: 20px;
+  width: 306.28px;
+}
+  
+  
+}
+@media screen and (max-width: 450px) {
+  .contectusdivmain{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .contectusleft{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: -200px;
+    margin-bottom: 150px;
+   
+  }
+  .addressmain,.for-sales-inquari-main,.forinquarymain{
+    margin-top: 0;
+    width: 30%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+  .addressall,.forinquaryimage,.forsalesimg{
+  margin-top: 10%;
+  align-items: center;
+  justify-content: center;
+ 
+  }
+  .forsalehead h1,.forinquari-heading h1,.addresssection h1{
+    /* margin-left: 2%; */
+    font-size: 22px;
+    margin-top: 0;
+
+    
+  }
+  .spanelementor-icon1,.spanelementor-3,.spanelementor-2{
+    margin-left: 0;
+    padding: 0;
+    
+  }
+ 
+  .frame-parent341{
+    width: 100%;
+  
+  }
+  .addresssection p,.forinquari-heading p,.forsalehead p{
+    font-size: 12px;
+    font-weight: 100;
+    margin-top: 0;
+   
+  
+
+  }
+  .forinquarymain{
+    align-items: center;
+    
+  }
+  .forinquaryimage{
+    margin-top:20px ;
+  }
+  .forinquari-heading h1{
+    font-size: 22px;
+    margin-left: 10px;
+    margin-top: 2px;
+  }
+  .forinquari-heading p{
+    margin-left: 0;
+    padding-left: 2px;
+  }
+  .your-full-name21 ,.phno-name271,.reason-for-the21,.emailinput1{
+    font-size: 22px;
+   
+  }
+  .frame-parent351{
+    display: flex;
+   flex-direction: column;
+   margin-left: 10%;
+   margin-top: 0;
+  }
+  .frame-parent371{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    width: 100%;
+  }
+  .message21{
+    margin-left: 10%;
+  }
+  textarea.frame-child27{
+    width: 90%;
+    margin-left: 5%;
+   
+  }
+  .send-message-frame1{
+    width: 80%;
+    font-size: 24px;
+  margin-left: 10%;
+  
+  }
+  .send-message21{
+    
+    width:100%;
+  }
+  .mapimage{
+margin-top: 10px;
+width: 100%;
+overflow: hidden;
+
+  }
+  .image-25-icon{
+    width: 100% !important;
+    height: 55vh !important;
+    object-fit: cover !important;
+    object-position: center !important;
+  }
+  
+ 
+  .frame-parent381{
+    width: 100%;
+  }
+  .email-group11{
+    width: 90%;
+    }
+    .subject-group1{
+width: 100%;
+    }
+
+}

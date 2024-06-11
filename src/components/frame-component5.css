@@ -1,0 +1,119 @@
+.framecomponentmain5{
+  background: url('../../public/image-72@2x.png');
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  background-size: cover;
+  width: 100%;
+  height: 110vh;
+}
+.recoveryheading5{
+  margin-top: 8%;
+  font-size: 128px;
+  font-weight:700;
+  width: 969.47px;
+  letter-spacing: 5.12px;
+  margin-left: 6%;
+  line-height: 109px;
+  color: #00F8F8;
+  font-family: urbanist;
+}
+.plug-and-play-solution{
+  font-size: 36px;
+  color: white;
+  font-family:poppins;
+  font-weight: 300;
+  margin-left: 7%;
+  margin-top: 20px;
+}
+.what-we-do{
+  font-size: 48px;
+  font-weight: 600;
+  font-family: urbanist;
+  line-height: 48.6px;
+  color: cyan;
+  margin-left: 7%;
+  margin-top: 4%;
+}
+.we-design-paragraph{
+  width: 1475px;
+  background-color: rgba(19, 19, 26,0.9);
+  margin-left: 7%;
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: 200;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
+.we-design-paragraph p{
+  padding: 0 80px;
+  letter-spacing: 2%;
+  line-height: 37px;
+  font-size: 24px;
+  font-family: poppins;
+  font-weight: 300;
+  color: white;
+z-index: 1;
+}
+
+.gradient2 {
+  position: absolute;
+  top: 799.1px;
+  left: 0;
+  background: linear-gradient(180deg, rgba(19, 19, 26, 0), #13131a);
+  width: 102%;
+  height: 278.9px;
+  z-index: 4;
+} 
+.overlay3 {
+  position: absolute;
+  top:0;
+  left: 0.1px;
+  width: 100%;
+  height: 110vh;
+  background-color: var(--color-gray-600);
+  z-index: 1;
+}
+
+
+@media  screen and (max-width:450px){
+  .framecomponentmain5{
+    width: 100%;
+    box-sizing: border-box;
+    background-size: cover;
+  } 
+  .recoveryheading5{
+    margin-top: 30%;
+    font-size: 48px;
+    font-weight:700;
+    width: 50%;
+    letter-spacing: 5.12px;
+    margin-left: 6%;
+    line-height: 37px;
+  }
+  .plug-and-play-solution{
+    font-size: 22px;
+    margin-top: 10px;
+  }
+  .we-design-paragraph{
+    width: 88%;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 200;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+  }
+  .we-design-paragraph p{
+    padding: 0 20px;
+    letter-spacing: 2%;
+    line-height: 22px;
+    font-size: 16px;
+    font-weight: 200;
+  }
+  .gradient2 {
+    top: 540px;
+    height: 150.9px;
+  } 
+
+}

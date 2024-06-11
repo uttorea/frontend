@@ -1,0 +1,17 @@
+/* src/components/LoadingPage.css */
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: rgb(61, 61, 61); */
+    background-color: rgb(0, 0, 0);
+
+
+  }
+  
+  .loading-logo {
+    width: 200px; /* Adjust size as needed */
+    height: auto;
+  }
+  

@@ -1,0 +1,325 @@
+.aboutmaindiv{
+  background: url('../../public/aboutpage.png');
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about-us-child {
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.overlay1 {
+  height: 1080px;
+  background-color: var(--color-midnightblue);
+  flex-shrink: 0;
+  display: none;
+  z-index: 1;
+}
+.gradient1,
+.overlay1,
+.rescue-safety,
+.uttorea {
+  align-self: stretch;
+  position: relative;
+}
+.gradient1 {
+  height: 310.5px;
+  background: linear-gradient(180deg, rgba(19, 19, 26, 0), #13131a);
+  flex-shrink: 0;
+  display: none;
+  z-index: 2;
+}
+.rescue-safety,
+.uttorea{
+  margin: 0;
+  text-transform: uppercase;
+  font-family: inherit;
+  z-index: 1;
+}
+.uttorea {
+  font-size: 128px;
+  letter-spacing: 0.04em;
+  line-height: 89px;
+  font-weight: 900;
+  /* padding-left: 30%; */
+}
+.rescue-safety {
+  font-size: var(--font-size-21xl);
+  /* padding-top: 300px; */
+  line-height: 50px;
+  font-weight: 500;
+  /* padding-left: 34%; */
+}
+.uttorea-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 22.4px;
+}
+.at-uttorea-our {
+  
+  height: 225px;
+  width: 1203.7px;
+  position: relative;
+  font-weight:600;
+  letter-spacing: 0.96px;
+  line-height: 52px;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  padding-bottom: 39px;
+  z-index: 1;
+}
+.at-uttorea-our-mission-is-sim-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  /* padding: 0 var(--padding-xl); */
+  padding: 40px 185px;
+  box-sizing: border-box;
+  /* font-size: var(--font-size-5xl); */
+  font-size: 24px;
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+  /* margin-top: -5px; */
+}
+.about-us-inner,
+.at-uttorea-our-mission-is-sim-wrapper,
+.frame-group {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+.frame-group {
+  width: 1520px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 58.8px;
+}
+.about-us-inner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  /* padding: 320px var(--padding-xl) 187.5px; */
+  padding: 320px var(--padding-xl) 0px;
+
+  box-sizing: border-box;
+}
+.our-story {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: 48px;
+  line-height: 12px;
+  text-transform: capitalize;
+  font-weight: 900;
+  font-family:urbanist;
+  align-items: center;
+  /* padding-left: 40%; */
+  z-index: 1;
+  margin-top: 21%;
+}
+.blank-line,
+.imbibing-the-qualities {
+  margin-block-start: 0;
+  margin-block-end: 7px;
+}
+.our-mission-is {
+  margin: 0;
+}
+.imbibing-the-qualities-container {
+  /* height: 261px; */
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 46px;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: 24px;
+  font-weight: 200;
+}
+.backgroundborder {
+  align-self: stretch;
+  box-shadow: var(--blue-blur);
+  box-shadow: 0px 15px 60px rgba(59, 105, 178, 0.15);
+  /* box-shadow: 10px 10px 10px 10px blue; */
+  border-radius: var(--br-base);
+  background: linear-gradient(
+    114.03deg,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0)
+  );
+  border: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-49xl) var(--padding-61xl);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--white);
+  font-family: var(--font-poppins);
+}
+.about-us-inner1,
+.backgroundborder,
+.our-story-parent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.our-story-parent {
+  width: 1520px;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 60px;
+  gap: 104.4px;
+
+  align-items: center;
+}
+.about-us-inner1 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 113.7px;
+  box-sizing: border-box;
+  font-size: var(--font-size-29xl);
+  /* background: url('../../public/about12.png'); */
+  background-repeat: no-repeat;
+}
+.about-us1 {
+  width: 100%;
+  position: relative;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  /* gap: 180.3px; */
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: 24px;
+  color: var(--cyan);
+  font-family: var(--font-urbanist);
+  
+}
+@media screen and (max-width: 1250px) {
+  .backgroundborder {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .about-us1 {
+    gap: 109px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .uttorea {
+    font-size: 64px;
+    line-height: 35px;
+    padding-bottom: 0;
+  }
+  .aboutmaindiv{
+    width: 100%;
+  }
+  .rescue-safety {
+    font-size: 17px;
+    line-height: 35px;
+  }
+  .at-uttorea-our{
+    width: 100%;
+    font-size: 17px;
+    line-height: 35px;
+  }
+  .our-story{
+    font-size: 34px;
+    line-height: 35px;
+  }
+  .our-story-parent{
+    gap: 40px;
+  }
+  .imbibing-the-qualities-container{
+    width: 100%;
+    font-size: 17px;
+    line-height: 35px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .uttorea {
+
+    font-size: 64px;
+    line-height: 36px;
+    margin: 0;
+    margin-top: 40%;
+    
+  }
+  .uttorea-parent{
+    gap: 0;
+  }
+  .about-us1{
+    gap: 0;
+  }
+  .about-us-inner{
+    padding: 0;
+  }
+  .rescue-safety {
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 10px;
+   
+    padding-bottom: 20%;
+  }
+  .at-uttorea-our {
+    /* font-size: var(--font-size-lgi); */
+    font-size: 16px;
+    width: 90%;
+    flex-direction: column;
+    line-height:30px;
+    padding: 10px;
+    padding-top: 30px;
+    font-weight: 600;
+  }
+  .frame-group {
+    gap: 0;
+  }
+  .our-story {
+    margin-top: 40%;
+    font-size:32px;
+    line-height: 35px;
+  }
+  .imbibing-the-qualities-container {
+    font-size: 16px;
+    line-height: 37px;
+    margin-top:5%;
+  }
+  .backgroundborder {
+    padding-top: var(--padding-25xl);
+    padding-bottom: var(--padding-25xl);
+    box-sizing: border-box;
+  }
+  .our-story-parent {
+    gap: var(--gap-7xl);
+    font-size: 32px;
+    /* padding-top: 7%; */
+    padding:0 ;
+    margin: 0;
+    margin-top: 50px;
+  }
+  .at-uttorea-our-mission-is-sim-wrapper{
+padding: 0;
+  }
+}

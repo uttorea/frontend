@@ -1,0 +1,106 @@
+
+.image-54-icon1 {
+  width: 335.7px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.image-54-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.arsentm1 {
+  font-weight: 600;
+  padding-bottom: 8px;
+}
+.explore-arsentm-series-container3 {
+  width: 80%;
+  gap: 10px;
+}
+.explore-arsentm-series-container2 {
+  height: 15px;
+  width: 290px;
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 14.4px;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+}
+.vector-icon3 {
+  width: 17.2px;
+  height: 11.5px;
+  position: relative;
+}
+.vector-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-7) 0 0;
+}
+.backgroundborderoverlayblur,
+.explore-arsentm-series-group {
+  background: linear-gradient(
+    /* 114.03deg, */
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0),
+    rgba(59, 105, 178, 0.97),
+    
+  );
+  overflow: hidden;
+  display: flex;
+}
+.explore-arsentm-series-group {
+  align-self: stretch;
+  border-top: 4px solid var(--cyan);
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-16xl) var(--padding-xl) var(--padding-21xl);
+  gap: var(--gap-3xs);
+  cursor: pointer;
+}
+.backgroundborderoverlayblur {
+  flex: 1;
+  box-shadow: var(--blue-blur);
+  border-radius: var(--br-base);
+  border: 1px solid var(--color-cornflowerblue-100);
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-12xs-2) 0 0;
+  gap: var(--gap-8xs-6);
+  min-width: 408px;
+  max-width: 100%;
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--cyan);
+  font-family: var(--font-poppins);
+  background-color: rgba(59, 105, 178, 0.1);
+  
+}
+@media screen and (max-width: 900px) {
+  .backgroundborderoverlayblur {
+    min-width: 100%;
+  
+  }
+}
+@media screen and (max-width: 450px) {
+  .explore-arsentm-series-container2 {
+    font-size: var(--font-size-lgi);
+    line-height: 12px;
+  }
+  .backgroundborderoverlayblur{
+    padding-top: 65px;
+  }
+}

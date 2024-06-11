@@ -1,0 +1,918 @@
+.homepagemainimage{
+ background-image: url('../../public/homebackground.svg');
+ background-size: cover;
+ background-repeat: no-repeat;
+ width: 100%;
+
+}
+.background-video{
+  width: 103%;
+  position: relative;
+}
+.gradient-overlayhome {
+  position: absolute;
+  bottom:0px;
+  
+  left: 0;
+  width: 100%;
+  height: 20%;
+  /* background: url('../../public/Gradient.svg');  */
+/* opacity: 0.1;
+  background: linear-gradient(to top, #1c1c36f6, #4f4d63, #868494, #c8c7cc, #ffffffcd); */
+  pointer-events: none; 
+}
+
+
+.home-inner{
+  
+  display: flex;
+  align-items: flex-start;
+  /* max-width: 100%;
+   */
+  
+}
+.home-inner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-8xl) 588.3px var(--padding-xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-109xl);
+  color: var(--cyan);
+  font-family: var(--font-urbanist);
+  height: 128.4vh;
+  width: 100%;
+  position: relative;
+ 
+}
+.empowering,
+.to-fly-everywhere,
+.unmanned-aerial-operations {
+  margin: 0;
+}
+.empowering-unmanned-aerial-container,
+.safety-is-paramount {
+  position: relative;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+.empowering-unmanned-aerial-container {
+  margin-top: 240px;
+  align-self: stretch;
+  font-size: 48px;
+  line-height: 80px;
+  font-weight: 700;
+  font-family:urbanist;
+  z-index: 1;
+}
+.safety-is-paramount {
+  flex: 1;
+  line-height: 46px;
+  white-space: pre-wrap;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.backgroundborder2,
+.empowering-unmanned-aerial-op-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.backgroundborder2 {
+  width: 1520.05px;
+  align-self: stretch;
+  box-shadow: var(--blue-blur);
+  border-radius: var(--br-base);
+  background: linear-gradient(
+    114.03deg,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0)
+  );
+  border: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: 40px 80px;
+  margin-left: 22px;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--white);
+  font-family: var(--font-poppins);
+}
+.empowering-unmanned-aerial-op-parent {
+  width: 1520px;
+  flex-direction: column;
+  gap: 96.7px;
+}
+.home-child {
+  width: 100%;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-8xl) 240px var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--cyan);
+  font-family: var(--font-urbanist);
+  /* background: url('../../public/Frame\ 427318926\ 3.png'); */
+
+}
+.image-116-icon2 {
+  height: 92px;
+  width: 104.2px;
+  position: relative;
+  object-fit: contain;
+}
+.home-container,
+.home3 {
+  display: flex;
+  align-items: center;
+}
+.home3 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 22px;
+  font-weight: 600;
+  justify-content: center;
+}
+.home-container {
+  height: 42px;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-4xs);
+  box-sizing: border-box;
+  color: var(--cyan);
+}
+.parachute-recovery-system2 {
+  height: 50px;
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 50px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.parachute-recovery-system-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-smi);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.inflatable-airbags-system2 {
+  height: 50px;
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 50px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-child2 {
+  align-self: stretch;
+  width: 25px;
+  position: relative;
+}
+.inflatable-airbags-system-group {
+  height: 76px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+  max-width: 100%;
+}
+.about-us3 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 22px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-us-container {
+  height: 42px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.contact-us3 {
+  height: 22px;
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 22px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0.2px 0 0#fff, 0 0.2px 0#fff, -0.2px 0 0#fff, 0-0.2px 0#fff;
+}
+.contact-us-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-smi);
+}
+.frame-parent3,
+.image-116-container {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+}
+.frame-parent3 {
+  width: 1191px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  min-height: 100px;
+}
+.image-116-container {
+  align-self: stretch;
+  backdrop-filter: blur(25.2px);
+  background: linear-gradient(
+    -77.62deg,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0)
+  );
+  display: none;
+  padding: 0 var(--padding-181xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.image-116-icon3 {
+  height: 92px;
+  width: 104.2px;
+  position: relative;
+  object-fit: contain;
+}
+.home-frame,
+.home4 {
+  display: flex;
+  align-items: center;
+}
+.home4 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 22px;
+  font-weight: 600;
+  justify-content: center;
+}
+.home-frame {
+  height: 42px;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-4xs);
+  box-sizing: border-box;
+  color: var(--cyan);
+}
+.parachute-recovery-system3 {
+  height: 50px;
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 50px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.parachute-recovery-system-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-smi);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.inflatable-airbags-system3 {
+  height: 50px;
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 50px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-child3 {
+  align-self: stretch;
+  width: 25px;
+  position: relative;
+}
+.inflatable-airbags-system-container {
+  height: 76px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+  max-width: 100%;
+}
+.about-us4 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 22px;
+  font-weight: 600;
+  justify-content: center;
+}
+.about-us-frame,
+.about-us4,
+.contact-us4 {
+  display: flex;
+  align-items: center;
+}
+.about-us-frame {
+  height: 42px;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.contact-us4 {
+  height: 22px;
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 22px;
+  font-weight: 600;
+  justify-content: center;
+  text-shadow: 0.2px 0 0#fff, 0 0.2px 0#fff, -0.2px 0 0#fff, 0-0.2px 0#fff;
+}
+.contact-us-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-smi);
+}
+.frame-parent4,
+.image-116-parent1 {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+}
+.frame-parent4 {
+  width: 1191px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  min-height: 100px;
+}
+.image-116-parent1 {
+  align-self: stretch;
+  backdrop-filter: blur(25.2px);
+  background: linear-gradient(
+    -77.62deg,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0)
+  );
+  display: none;
+  padding: 0 var(--padding-181xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.image-116-icon4 {
+  height: 92px;
+  width: 104.2px;
+  position: relative;
+  object-fit: contain;
+}
+.home-wrapper1,
+.home5 {
+  display: flex;
+  align-items: center;
+}
+.home5 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 22px;
+  font-weight: 600;
+  justify-content: center;
+}
+.home-wrapper1 {
+  height: 42px;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-4xs);
+  box-sizing: border-box;
+  color: var(--cyan);
+}
+.parachute-recovery-system4 {
+  height: 50px;
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 50px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.parachute-recovery-system-wrapper1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-smi);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.inflatable-airbags-system4 {
+  height: 50px;
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 50px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-child4 {
+  align-self: stretch;
+  width: 25px;
+  position: relative;
+}
+.inflatable-airbags-system-parent1 {
+  height: 76px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+  max-width: 100%;
+}
+.about-us-wrapper1,
+.about-us5 {
+  display: flex;
+  align-items: center;
+}
+.about-us5 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 22px;
+  font-weight: 600;
+  justify-content: center;
+}
+.about-us-wrapper1 {
+  height: 42px;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.contact-us5 {
+  height: 22px;
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 22px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0.2px 0 0#fff, 0 0.2px 0#fff, -0.2px 0 0#fff, 0-0.2px 0#fff;
+}
+.contact-us-wrapper1,
+.frame-parent5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.contact-us-wrapper1 {
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-smi);
+}
+.frame-parent5 {
+  width: 1191px;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: space-between;
+  min-height: 100px;
+  max-width: 100%;
+}
+.frame-footer,
+.image-116-parent2 {
+  align-self: stretch;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.image-116-parent2 {
+  backdrop-filter: blur(25.2px);
+  background: linear-gradient(
+    -77.62deg,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0)
+  );
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--padding-181xl);
+  gap: var(--gap-xl);
+}
+.frame-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 10%;
+  gap: 168.5px;
+  width: 1920px;
+  height: 601px;
+}
+.image-116-icon5 {
+  height: 92px;
+  width: 104.2px;
+  position: relative;
+  object-fit: contain;
+}
+.home-wrapper2,
+.home6 {
+  display: flex;
+  align-items: center;
+}
+.home6 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 22px;
+  font-weight: 600;
+  justify-content: center;
+}
+.home-wrapper2 {
+  height: 42px;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-4xs);
+  box-sizing: border-box;
+  color: var(--cyan);
+}
+.parachute-recovery-system5 {
+  height: 50px;
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 50px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.parachute-recovery-system-wrapper2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-smi);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.inflatable-airbags-system5 {
+  height: 50px;
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 50px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-child5 {
+  align-self: stretch;
+  width: 25px;
+  position: relative;
+}
+.inflatable-airbags-system-parent2 {
+  height: 76px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+  max-width: 100%;
+  color: var(--color-whitesmoke-300);
+}
+.about-us-wrapper2,
+.about-us6 {
+  display: flex;
+  align-items: center;
+}
+.about-us6 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 22px;
+  font-weight: 600;
+  justify-content: center;
+  cursor: pointer;
+}
+.about-us-wrapper2 {
+  height: 42px;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.contact-us6 {
+  height: 22px;
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 22px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.contact-us-wrapper2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-smi);
+}
+.frame-parent6,
+.image-116-parent3 {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+}
+.frame-parent6 {
+  width: 1191px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  min-height: 100px;
+}
+.image-116-parent3 {
+  align-self: stretch;
+  backdrop-filter: blur(25.2px);
+  background-color: var(--color-gray-300);
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  display: none;
+  padding: 0 var(--padding-181xl);
+  gap: var(--gap-xl);
+  color: var(--white);
+}
+.home2 {
+  width: 100%;
+  /* height: 9635px; */
+  position: relative;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-whitesmoke-300);
+  font-family: var(--font-urbanist);
+ 
+}
+
+@media screen and (max-width: 1725px) {
+  .frame-parent3,
+  .frame-parent4,
+  .frame-parent5,
+  .frame-parent6,
+  .image-116-container,
+  .image-116-parent1,
+  .image-116-parent2,
+  .image-116-parent3 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1350px) {
+ 
+  .home-inner {
+    box-sizing: border-box;
+  }
+  .backgroundborder2 {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .frame-footer,
+  .home-child {
+    /* padding-bottom: 214px; */
+    box-sizing: border-box;
+  }
+  .frame-footer {
+    gap: var(--gap-65xl);
+    /* padding-bottom: 178px; */
+  }
+}
+@media screen and (max-width: 900px) {
+ .home2{
+  width: 100%;
+ }
+  .home-inner {
+    width: 100%;
+    padding: 0;
+    height: 400px;
+    box-sizing: border-box;
+  }
+  .gradient-overlayhome{
+    bottom: -194px;
+  }
+  .safety-is-paramount{
+    font-size: 17px;
+    line-height: 35px;
+   }
+  .empowering-unmanned-aerial-container {
+    font-size: var(--font-size-19xl);
+    line-height: 71px;
+     margin-top: 130px;
+     
+  }
+  .empowering-unmanned-aerial-op-parent {
+    gap: 48px;
+    
+  }
+  .home-child {
+    margin-top: 200px;
+    padding: 0;
+    margin-bottom: 0;
+    box-sizing: border-box;
+  }
+  .frame-footer {
+    gap: var(--gap-23xl);
+    padding-bottom: 116px;
+    box-sizing: border-box;
+  }
+  .background-video{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top:5%;
+    
+  }
+  .backgroundborder2{
+    margin-left: 45px;
+    width: 90%;
+  }
+  .empowering,
+  .unmanned-aerial-operations,
+  .to-fly-everywhere{
+    font-size: 34px;
+    line-height: 45px;
+  }
+  .homepagemainimage{
+    width: 100%;
+  }
+
+}
+@media screen and (max-width: 450px) {
+  .empowering-unmanned-aerial-container {
+    padding-top: 0px;
+    margin: 0;
+    font-size: 32px;
+    line-height: 53px;
+  }
+  .homepagemainimage{
+    width: 100%;
+  }
+  .backgroundborder2{
+    margin-left: 20px;
+    width: 90%;
+  }
+  .gradient-overlayhome{
+    margin-bottom: 300px;
+  }
+  .home-child{
+    margin-top: -50px;
+  }
+  .empowering-unmanned-aerial-op-parent {
+    gap: 24px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .home3 {
+    font-size: var(--font-size-lgi);
+    line-height: 18px;
+  }
+  .inflatable-airbags-system2,
+  .parachute-recovery-system2 {
+    font-size: var(--font-size-lgi);
+    line-height: 40px;
+  }
+  .about-us3,
+  .contact-us3,
+  .home4 {
+    font-size: var(--font-size-lgi);
+    line-height: 18px;
+  }
+  .inflatable-airbags-system3,
+  .parachute-recovery-system3 {
+    font-size: var(--font-size-lgi);
+    line-height: 40px;
+  }
+  .about-us4,
+  .contact-us4,
+  .home5 {
+    font-size: var(--font-size-lgi);
+    line-height: 18px;
+  }
+  .about-us5,
+  .contact-us5,
+  .inflatable-airbags-system4,
+  .parachute-recovery-system4 {
+    font-size: var(--font-size-lgi);
+    line-height: 40px;
+  }
+  .about-us5,
+  .contact-us5 {
+    line-height: 18px;
+  }
+  .frame-footer {
+    padding-bottom: 75px;
+    box-sizing: border-box;
+  }
+  .home6 {
+    font-size: var(--font-size-lgi);
+    line-height: 18px;
+  }
+  .about-us6,
+  .contact-us6,
+  .inflatable-airbags-system5,
+  .parachute-recovery-system5 {
+    font-size: var(--font-size-lgi);
+    line-height: 40px;
+  }
+  .about-us6,
+  .contact-us6 {
+    line-height: 18px;
+  }
+ .background-video{
+
+  width: 100%;
+  height: 50vh;
+  padding: 0;
+  margin-top: -102px;
+ }
+ .home-inner{
+  padding: 0;
+  padding-top: 0px;
+  margin-bottom: 0;
+  height: 450px;
+  align-items: center;
+ 
+  
+ }
+ .home-child{
+  height: 500px;
+ }
+ .gradient-overlayhome img{
+width: 100%;
+ }
+ .empowering-unmanned-aerial-container{
+font-size: 32px;
+line-height: 35px;
+
+ }
+ .empowering,.unmanned-aerial-operations,.to-fly-everywhere{
+  font-size: 32px;
+ }
+ .safety-is-paramount{
+  font-size: 16px;
+  line-height: 35px;
+ }
+ 
+
+}

@@ -1,0 +1,363 @@
+
+  .backgroundborderoverlayblur-icon7 {
+    align-self: stretch;
+    height: 350px;
+    position: relative;
+    border-radius: var(--br-base);
+    width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    box-shadow: var(--blue-blur);
+  }
+  .multirotor-drone-for2,
+  .sea-based-recovery2 {
+    margin: 0;
+    font-weight: 300;
+  }
+  .multirotor-drone-for-container2 {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.01em;
+    line-height: 33px;
+    text-transform: capitalize;
+  }
+  .backgroundborderoverlayblur-parent6 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-smi-9);
+    box-sizing: border-box;
+    /* gap: var(--gap-sm-4); */
+    width: 100%;
+    
+  }
+  .backgroundborderoverlayblur-icon8 {
+    align-self: stretch;
+    height: 350px;
+    position: relative;
+    border-radius: var(--br-base);
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    box-shadow: var(--blue-blur);
+  }
+  .land-based-recovery2,
+  .multirotor-drone-for3 {
+    margin: 0;
+    font-weight: 300;
+  }
+  .multirotor-drone-for-container3 {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.01em;
+    line-height: 33px;
+    text-transform: capitalize;
+  }
+  .backgroundborderoverlayblur-parent7 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-smi-9);
+    box-sizing: border-box;
+    gap: var(--gap-sm-4);
+    max-width: 100%;
+  }
+  .backgroundborderoverlayblur-icon9 {
+    align-self: stretch;
+    height: 350px;
+    position: relative;
+    border-radius: var(--br-base);
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    box-shadow: var(--blue-blur);
+  
+  }
+  .fixed-wing-drone5,
+  .sea-based-recovery3 {
+    margin: 0;
+    font-weight: 300;
+  }
+  .fixed-wing-drone-container2 {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.01em;
+    line-height: 33px;
+    text-transform: capitalize;
+  }
+  .backgroundborderoverlayblur-parent8 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-smi-9);
+    box-sizing: border-box;
+    gap: var(--gap-sm-4);
+    max-width: 100%;
+  
+  
+  }
+  .backgroundborderoverlayblur-icon10 {
+    align-self: stretch;
+    height: 350px;
+    position: relative;
+    border-radius: var(--br-base);
+    max-width: 100%;
+    box-shadow: var(--blue-blur);
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .fixed-wing-drone6,
+  .land-based-recovery3 {
+    margin: 0;
+    font-weight: 300;
+  }
+  .fixed-wing-drone-container3 {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.01em;
+    line-height: 33px;
+    text-transform: capitalize;
+  }
+  .backgroundborderoverlayblur-parent9 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-smi-9);
+    box-sizing: border-box;
+    gap: var(--gap-sm-4);
+    max-width: 100%;
+  }
+  .frame-parent45 {
+    align-self: stretch;
+    display: grid;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-21xl-3);
+    width: 100%;
+    grid-template-columns: repeat(4, minmax(262px, 1fr));
+    z-index: 1;
+  }
+  .explore-inflatable-airbags {
+    position: relative;
+    font-size: var(--font-size-5xl);
+    letter-spacing: 0.5px;
+    line-height: 15px;
+    text-transform: capitalize;
+    font-family: var(--font-poppins);
+    color: var(--cyan);
+    text-align: center;
+  }
+  .vector-icon4 {
+    width: 17.2px;
+    height: 11.5px;
+    position: relative;
+  }
+  .vector-wrapper1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 1px;
+  }
+  .explore-inflatable-airbags-sys-parent,
+  .frame-wrapper17 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .explore-inflatable-airbags-sys-parent {
+    cursor: pointer;
+    border: 2px solid var(--cyan);
+    padding: var(--padding-mid) var(--padding-24xl);
+    background-color: transparent;
+    border-radius: var(--br-5xs);
+    background: linear-gradient(
+      114.03deg,
+      rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0)
+    );
+   
+    overflow: hidden;
+    justify-content: flex-start;
+    gap: var(--gap-10xl);
+    z-index: 1;
+  }
+  .explore-inflatable-airbags-sys-parent:hover{
+      
+    background-color: var(--color-darkturquoise-200);
+     
+      box-sizing: border-box;
+   
+  }
+  .frame-wrapper17 {
+    margin-top: 30px;
+    width: 1510.8px;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    
+  }
+  
+  .enhance-safety-with-inflatable-parent,
+  .frame-parent44 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .frame-parent44 {
+    align-self: stretch;
+    align-items: flex-start;
+    gap: var(--gap-41xl-1);
+    margin-top: 83px;
+  }
+  .enhance-safety-with-inflatable-parent {
+    width: 1521px;
+    align-items: flex-end;
+    gap: 65px;
+    flex-shrink: 0;
+  }
+   @media screen and (max-width: 1350px) {
+   }
+  @media screen and (max-width: 900px) {
+    
+    .frame-parent45 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    .explore-inflatable-airbags{
+      font-size: 17px;
+      font-weight: 200;
+    }
+    .explore-inflatable-airbags-sys-parent {
+      padding-left: var(--padding-2xl);
+      padding-right: var(--padding-2xl);
+      box-sizing: border-box;
+    }
+    .frame-parent44 {
+      gap: var(--gap-11xl);
+    }
+    
+    .multirotor-drone-for2,
+    .sea-based-recovery2,
+    .multirotor-drone-for3,
+    .land-based-recovery2,
+    .fixed-wing-drone5,
+    .sea-based-recovery3,
+    .fixed-wing-drone6,
+    .land-based-recovery3{
+      font-size: 17px;
+      line-height: 35px;
+  
+    }
+
+      
+   .backgroundborderoverlayblur-icon7,.backgroundborderoverlayblur-icon8,
+   .backgroundborderoverlayblur-icon9,.backgroundborderoverlayblur-icon10{
+    width: 100%;
+    height: auto;
+   }
+   .multirotor-drone-for-container2,.multirotor-drone-for-container3,
+   .fixed-wing-drone-container2,.fixed-wing-drone-container3{
+    font-size: 16px;
+    line-height: 22px;
+    width: 100%;
+   }
+   .multirotor-drone-for2,.sea-based-recovery2,
+   .multirotor-drone-for3,.land-based-recovery2,
+   .sea-based-recovery3,.fixed-wing-drone6,.fixed-wing-drone5,
+   .land-based-recovery3,.land-based-recovery3{
+    font-size: 17px;
+  
+   }
+   .frame-parent45{
+  align-self: stretch;
+  display: grid;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  grid-template-columns: repeat(2, minmax(150px, 1fr));
+  z-index: 1;
+  
+   }
+   .frame-wrapper17{
+    margin-top: 30px;
+   }
+   .explore-inflatable-airbags-sys-parent{
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   }
+  
+  }
+  @media screen and (max-width: 450px) {
+    .explore-inflatable-airbags,
+    .fixed-wing-drone-container2,
+    .fixed-wing-drone-container3,
+    .multirotor-drone-for-container2,
+    .multirotor-drone-for-container3 {
+      font-size: 16px;
+      line-height: 37px;
+      font-weight: 100;
+    }
+    .explore-inflatable-airbags {
+      line-height: 20px;
+      font-size: 16px;
+    }
+    .frame-parent44 {
+      gap: var(--gap-mini);
+    }
+     
+    .backgroundborderoverlayblur-parent6,
+    .backgroundborderoverlayblur-parent7,
+    .backgroundborderoverlayblur-parent8,
+    .backgroundborderoverlayblur-parent9{
+      padding: 0 10px;
+    }
+    
+   
+   .backgroundborderoverlayblur-icon7,.backgroundborderoverlayblur-icon8,
+   .backgroundborderoverlayblur-icon9,.backgroundborderoverlayblur-icon10{
+    width: 100%;
+    height: auto;
+   }
+   .multirotor-drone-for-container2,.multirotor-drone-for-container3,
+   .fixed-wing-drone-container2,.fixed-wing-drone-container3{
+    font-size: 16px;
+    line-height: 22px;
+    width: 100%;
+   }
+   .multirotor-drone-for2,.sea-based-recovery2,
+   .multirotor-drone-for3,.land-based-recovery2,
+   .sea-based-recovery3,.fixed-wing-drone6,.fixed-wing-drone5,
+   .land-based-recovery3,.land-based-recovery3{
+    font-size: 16px;
+  
+   }
+  .frame-parent45{
+  
+  
+  width: 100%;
+  grid-template-columns: repeat(2, minmax(150px, 1fr));
+  gap: 20px;
+  z-index: 1;
+   }
+   .frame-wrapper17{
+    margin-top: 30px;
+   }
+   .explore-inflatable-airbags-sys-parent{
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   }
+  }
+  

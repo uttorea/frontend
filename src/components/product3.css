@@ -1,0 +1,670 @@
+.container ,.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 124vh;
+    width: 100%;
+   color: white;
+    position: relative;
+  }
+ 
+  .ellipse {
+    position: absolute;
+    top: 320px;
+    width: 798.5px;
+    height: 329.8px;
+    border-radius: 50%;
+    transition: transform 0.2s, display 0.2s;
+    
+  }
+
+  .zoom-handle{
+   position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 45.41px;
+    height: 192.74px;
+    background: white;
+    cursor: pointer;
+  }
+
+  .overlay-image {
+    
+    position: absolute;
+    top:260px;
+    width: 286.5px; 
+    height: 414px;  
+    border-radius: 40%; 
+    transition: transform 0.2s;
+    pointer-events: none; 
+  }
+  .overlay-imaged{
+    position: absolute;
+    top:33%;
+    width: 489px; 
+    height: 296px;
+    border-radius: 40%; 
+    transition: transform 0.2s;
+    pointer-events: none; 
+  }
+  .zoom-controls {
+    position: absolute;
+   right: 20px;
+   
+   top:20px;
+   bottom: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+    
+  }
+  .zoom-handle{            
+             border-radius: 16px;      
+  }
+  .vertical-slider {
+    height: 192.7px;
+    width: 45.4px;
+    writing-mode: bt-lr; 
+    -webkit-appearance: slider-vertical;
+    position: relative;
+    border-radius: var(--br-base);
+  
+  }
+  
+  .zoom-image {
+    transition: transform 0.2s ease, opacity 0.2s ease;
+  }
+  
+  
+  .ballistic-emergency-recovery-container13{
+   
+    position: absolute;
+    top: 8%;
+    font-size: 48px;
+    line-height: 48.59px;
+    font-weight: 700;
+    font-family: var(--font-urbanist);
+    color: var(--cyan);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    z-index: 4;
+    flex: top; 
+  }
+  
+  .pwm-based3 ,
+  .manual-sensor3,
+  .automated-ejection-mod3{
+    padding-left: 160px;   
+  } 
+  
+  .pwm-based-manual-container3 {
+    position: relative;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 24px;
+  line-height: 3.3px;
+  text-align: center;
+    width: 442px;
+    height: 33px;
+    padding-left: 600px;
+  }
+  .above-ground3,
+  .effective-height-3,
+  .minimum3 {
+    width: 442px;
+    height: 33px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  
+  
+  }
+  .minimum-effective-height-container3 {
+    flex: 1;
+    position: relative;
+    text-align: center;
+    padding-top: 100px;
+    width: 442px;
+    font-size: 24px;
+    line-height: 3.3px;
+    text-transform: capitalize;
+  }
+  .minimum-effective-height-20-wrapper3 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 var(--padding-7xl-8) 0 0;
+  }
+  .descent3,
+  .speed-53 {
+    font-size: 24px;
+    width: 200px;
+    line-height: 3.3px;
+  }
+  .descent-speed-container3 {
+    position: relative;
+    /* font-size: 24px; */
+    text-align: center;
+    height: 25px;
+    text-transform: capitalize;
+  }
+  .descent-speed-5-ms-wrapper3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 var(--padding-xl) 0 var(--padding-11xl);
+  }
+  .pwm-based-manual-sensor-base-parent3 {
+    width: 295px;
+    height: 83px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin-bottom: 20%;
+    /* gap: var(--gap-xs); */
+  }
+  .ballistic-ejection3,
+  .pneumatic-micro-servo3 {
+    margin: 0;
+    /* color: ; */
+    font-size: 24px;
+    text-align: center;
+    width: 442px; 
+    height: 33px;
+    
+  }
+  .pneumatic-micro-servo-container3 {
+    letter-spacing: 0%;
+    line-height: 33px;
+    margin-top: 100px;
+    align-self: stretch;
+    position: relative;
+    line-height: 7.14px;
+    text-transform: capitalize;
+  }
+  .dust-protection3,
+  .waterproof-and3 {
+  
+    width: 197px;
+    font-size: 24px;
+    line-height: 7.14px;
+    align-items: center;
+    /* margin: 0px; */
+    
+    
+  }
+  .dust-protection3{
+    margin-top: 20px;
+
+  }
+  .waterproof-and-dust-container3 {
+    flex: 1;
+    position: relative;
+    width: 197px;
+    text-transform: capitalize;
+    padding-left: 30%;
+  }
+  .waterproof-and-dust-protection-wrapper3 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    
+  }
+  .pneumatic-micro-servo-sprin-parent3{
+  
+    margin-bottom: 5px;
+    flex: 1;
+    
+    height: 293.345px;
+    width: 681.545px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 260px;
+    
+  }
+  
+  
+  .advanced-carbon,
+  .composite-structure3 {
+    font-size: 24px;
+    line-height: 3.3px;
+    align-items: starts;
+    width: 316px;
+  }
+  .advanced-carbon-composite-container3 {
+    position: relative;
+    width: 249px;
+    padding-top: 35px;
+    margin: 0px;
+    text-align: center;
+    height: 50px;
+    line-height: 7.14px;
+    text-transform: capitalize;
+    
+  }
+  .operating-temperature3,
+  .to-50-deg3 {
+    font-size: 24px;
+    line-height: 3.3px;
+   text-align: center;
+   width: 315px;
+   margin-left: 30px;
+   
+  }
+  .operating-temperature-container3 {
+    flex: 1;
+    position: relative;
+    line-height: 7.14px;
+   text-align: center;
+    padding: 30px;
+    padding-bottom: 0px;
+    text-transform: capitalize;
+  }
+  
+  .operating-temperature-10-to-wrapper3 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 7%;
+    padding: 0 0 0 var(--padding-base-1);
+  }
+  .g-shock-on3,
+  .mounting-points3 {
+    
+    font-size: 24px;
+    line-height: 3.3px;
+   text-align: start;
+   width: 330px;
+  
+  }
+  .g-shock-on-container3 {
+    position: relative;
+    line-height: 3.3px;
+    width: 192px;
+    height: 50px;
+    padding-right: 70px;
+    text-transform: capitalize;
+  }
+  .g-shock-on-mounting-points-wrapper3 {
+    display: flex;
+    flex-direction: row;
+    align-items:end;
+    justify-content: start;
+    padding: 0 var(--padding-7xs);
+    margin-top: 7%;
+  }
+  .frame-wrapper7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    transform: translateY(0);
+    transition: transform 0.2s;
+  }
+  .frame-parent363 {
+    height: 127px;
+    width: 405px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0 0 var(--padding-8xl-6);
+    box-sizing: border-box;
+    gap: var(--gap-mini);
+    z-index: 1;
+  }
+  
+  .advanced-carbon-composite-stru-parent3{
+    width: 550px;
+    height: 200px;
+    margin-top: 230px;
+    padding-right:10%;
+    flex-direction: column;
+    align-items:center;
+    justify-content: flex-start;
+    
+  }
+  
+  .frame-wrapper53 {
+    height: 293.345px;
+    width: 681.545px;
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: 10%;
+   
+  }
+  .arsentm-series-offers-container3 {
+    align-self: center;
+    margin: 0px;
+    margin-bottom: 3%;
+    font-size:24px;
+  font-family: poppins;
+    width: 1255px;
+    height: 49px;
+    top: 0;
+    position: relative;
+    text-transform: capitalize;
+  }
+  .arsentm3 {
+    font-weight: 600;
+  }
+  .explore-arsentm-series-container13 {
+    width: 100%;
+    color: cyan;
+   cursor: pointer;
+  }
+  .explore-arsentm-series-container3 {
+    height: 15px;
+    width: 272px;
+    padding: 20px 0px 20px 20px;
+    position: relative;
+    letter-spacing: 0.5px;
+    line-height: 14.4px;
+    text-transform: capitalize;
+    display: flex;justify-content: center;
+    align-items: center;
+  }
+  .vector-icon13 {
+    width: 17.2px;
+    height: 11.5px;
+    position: relative;
+  }
+  .vector-wrapper3 {
+    display: flex;
+    flex-direction: column;
+    width: 17.2px;
+    height: 11.52px;
+    align-items: flex-end;
+    justify-content: flex-start;
+    
+  }
+  
+  .explore-arsentm-series-parent3 {
+    border-radius: var(--br-5xs);
+    background: linear-gradient(
+      114.03deg,
+      rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0)
+    );
+    width: 369.2px;
+    height: 55px;
+    gap: 10px;
+    align-items: center;
+    font-size: 24px;
+    letter-spacing: 0.5;
+    border: 2px solid lightseagreen;
+    overflow: hidden;
+    display: flex;
+   
+  }
+  .explore-arsentm-series-parent3:hover {
+    background-color: var(--color-darkturquoise-200);
+    border: 1.8px solid var(--color-darkturquoise-100);
+    box-sizing: border-box;
+  }
+  .arsentm-series-offers-built-in-parent3 {
+    width: 1225px;
+    display: flex;
+    margin-bottom:20%;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    max-width: 100%;
+    z-index: 4;
+  }
+  .frame-wrapper63 {
+      display: flex;
+      align-self: end;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-size: var(--font-size-5xl);
+  }
+  
+  
+  @media screen and (max-width: 1350px) {
+    
+  }
+ 
+
+  @media screen and (max-width: 450px) {
+    .container {
+      margin-top: 5%;
+      width: 100%;
+    }
+    .ballistic-emergency-recovery-container13 {
+      width: 90%;
+      margin-left: 10%;
+      font-size: 32px;
+      line-height: 36px;
+    }
+    .zoom-handle {
+      left: 50%;
+      width: 45.41px;
+      height: 100.74px;
+      background: white;
+      cursor: pointer;
+    }
+    .ellipse {
+      width: 100%;
+    }
+    .overlay-image {
+      top: 315px;
+      width: 202.5px; 
+      height: 300px;
+    }
+    .overlay-imaged {
+      top: 410px;
+      width: 180.5px; 
+      height: 150px;
+    }
+    .arsentmpara {
+      width: 90%;
+      font-size: 16px;
+    }
+    .arsentm-series-offers-container3 {
+      margin: 0px;
+      margin-bottom: -15%;
+      font-size: 16px;
+      width: 90%;
+      height: 49px; 
+    }
+    .frame-parent363 {
+      width: 100%;
+      position: relative;
+      right: 50px;
+      top: 50px;
+      /* gap:50px; */
+    }
+    .pwm-based-manual-sensor-base-parent3 {
+      margin-bottom: 20%;
+      width: 100%;
+    }
+    .pwm-based-manual-container3 {
+      width: 100%;
+      padding-left: 0;
+      top: 20px;
+    }
+    .pwm-based3, .manual-sensor3, .automated-ejection-mod3 {
+      font-size: 12px;
+      width: 190px;
+      line-height: 5px;
+      position: relative;
+      right: 235px;
+      top: 20px;
+    }
+    .ejectionmode{
+      position: relative;
+      font-size: 12px;
+      line-height: 35px;
+      width:250px;
+      top: 27px;
+      right: 125px;
+    
+    }
+    .frame-wrapper53 {
+      height: 0;
+      width: 0;
+    }
+    .minimum-effective-height-20-wrapper3 {
+      width: 100%;
+    }
+    .minimum-effective-height-container3 {
+      width: 100%;
+    }
+    .above-ground3, .effective-height-3, .minimum3 {
+      font-size: 12px;
+      width: 200px;
+     line-height: 0;
+      position: relative;
+      right: 80px;
+      height: 20px;
+    }
+    .descent-speed-container3 {
+      width: 100%;
+    }
+    .descent-speed-5-ms-wrapper3 {
+      width: 100%;
+    }
+    .speed-53, .descent3 {  
+      font-size: 12px;
+      width: 100px;
+      position: relative;
+      left: 230px;
+      bottom:70px;
+      
+    }
+    .pneumatic-micro-servo-container3 {
+      width: 100%;
+    }
+    .pneumatic-micro-servo-sprin-parent3 {
+      width: 100%;
+    }
+    .pneumatic-micro-servo3, .ballistic-ejection3 {
+      font-size: 12px;
+      width: 200px;
+      line-height: 0;
+      position: relative;
+      left: 20px;
+      top: 30px;
+      height: 20px;
+      /* top:""= */
+      /* bottom:20px; */
+    }
+    .waterproof-and-dust-protection-wrapper3 {
+      width: 100%;
+    }
+    .waterproof-and-dust-container3 {
+      width: 100%;
+    }
+    .dust-protection3, .waterproof-and3 {
+      font-size: 12px;
+      width: 120px;
+      line-height: 0px;
+      position: relative;
+      left: 100px;
+      top: 13px;
+    }
+    .advanced-carbon-composite-stru-parent3 {
+      width: 100%;
+    }
+    .advanced-carbon-composite-container3 {
+      width: 100%;
+    }
+    .composite-structure3, .advanced-carbon3,.ejection-mode {
+      font-size: 12px;
+      width: 250px;
+      /* line-height: 5px; */
+      position: relative;
+      right: 120px;
+      top: 40px;
+      /* bottom:20px; */
+    }
+    .ejection-mode{
+      font-size: 12px;
+    }
+    .operating-temperature-10-to-wrapper3 {
+      width: 100%;
+    }
+    .operating-temperature-container3 {
+      width: 100%;
+    }
+    .operating-temperature3, .to-50-deg3 {
+      font-size: 12px;
+      width: 170px;
+      /* line-height: 5px; */
+      position: relative;
+      left: 65px;
+      bottom:25px;
+    }
+    .g-shock-on-mounting-points-wrapper3 {
+      width: 100%;
+    }
+    .g-shock-on-container3 {
+      width: 100%;
+    }
+    .mounting-points3, .g-shock-on3 {
+      font-size: 12px;
+      width: 120px;
+      /* line-height: 5px; */
+      position: relative;
+      left: 190px;
+      /* bottom:25px; */
+    }
+    .mounting-points3{
+      line-height: 15px;
+    }
+    .waterproof-and-dust-protection-wrapper3 {
+      width: 100%;
+    }
+    .waterproof-and-dust-container3 {
+      width: 100%;
+    }
+   
+    .explore-arsentm-series-parent3{
+     
+      width: 250.2px;
+      height: 55px;
+      gap: 1px;  
+      font-size: 16px;
+      letter-spacing: 0.5;
+      overflow: hidden;
+     
+    }
+    
+    .explore-arsentm-series-parent3{
+      margin-top: 200px;
+      
+    }
+    .container{
+      margin-bottom:100px;
+    }
+    .container1{
+      margin-top: 175%;
+        }
+  }
+  
+  
+  
+  
+  
