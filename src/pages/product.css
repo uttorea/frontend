@@ -10,6 +10,12 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.productTopImage{
+  width: 100%;
+  object-fit: cover;
+  overflow: none;
+  background-repeat: no-repeat;
+}
 .productallcont{
   width: 100%;
   /* background: url('../../public/1234.svg');  */
@@ -258,17 +264,17 @@
   .plug-and-play{
     width: 70%;
     /* margin-top: 0; */
-    top: 14%;
+    top: 16%;
     font-size: 16px;
   }
   .what-we-do{
     width: 70%;
     font-size: 32px;
-    top: 17%;
+    top: 19%;
   }
   .we-design-and-parent{
     width: 70%;
-    top: 30%;
+    top: 32%;
   }
   .we-design-and{
     font-size: 16px;
