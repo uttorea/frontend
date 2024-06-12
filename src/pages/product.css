@@ -4,6 +4,9 @@
   font-size: 24px;
   padding: 0;
 }
+.productTopImage{
+  width: 100%;
+}
 .productpagemain{
   width: 100%;
   background: url('../../public/product.png');
