@@ -120,16 +120,16 @@ hr.hrlogo{
 .footer-section-services p{
   font-family: arimo;
   color: rgba(148, 148, 148, 0.943);
+  font-size: 19.2px;
 }
 .footer-section-office{
   flex: 1;
-
   min-width: 200px;
 }
 .footer-section-office p{
 
   font-family: poppins;
-  font-size: 24px;
+  font-size: 19.2px;
   font-weight: 100;
   color: rgba(148, 148, 148, 0.943);
   /* width: 53%; */
@@ -137,7 +137,7 @@ hr.hrlogo{
 .footer-section-products p{
   color: rgba(148, 148, 148, 0.943);
   font-family: arimo;
-  font-size: 24px;
+  font-size: 19.2px;
   font-weight: 100;
 }
 .footer-section-products h3 {
@@ -183,8 +183,9 @@ hr.hrlogo{
 
 .social-icons p {
   position: absolute;
-  left: 65%;
+  left: 61%;
   color: #F8F8F8;
+  font-size: 21.672px;
   font-family: arimo;
 }
 

@@ -42,7 +42,7 @@ const FrameComponent51 = () => {
               <div className="dessentnmimagesection">
                 <div className="assentimage123">
                   <img className="decntmimageicon" alt="" src="/unnamed 7.png"/>
-                  <hr style={{color:'cyan',height:'3px', border:'none',backgroundColor:'cyan', width:'100%'}}/>
+                  <hr style={{color:'cyan',height:'2.9px', border:'none',backgroundColor:'cyan', width:'100%'}}/>
                   <div className="deassentmname"
                   onClick={onFrameContainer12Click}>Explore Diceris<sup>TM</sup> Series <spam><img alt="" className="svgicondecent" src="./vector1.svg"/></spam></div>
                 </div>

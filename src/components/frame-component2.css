@@ -11,16 +11,18 @@
   position: relative;
   font-size: inherit;
   letter-spacing: 0.04em;
-  line-height: 89px;
+  line-height: 79px;
   text-transform: capitalize;
   font-weight: 700;
-  font-family: inherit;
+  font-family: urbanist;
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 100%;
+  width: 100%;
   flex-shrink: 0;
+  font-size: 38.4px;
   z-index: 1;
+  margin-top: 2%;
 }
 .backgroundborderoverlayblur-icon11 {
   align-self: stretch;
@@ -39,7 +41,7 @@
   position: relative;
   line-height: 37px;
   text-transform: capitalize;
-  font-size: 24px;
+  font-size: 19.2px;
   font-weight: 400;
   color: #3B69B2;
   z-index: 1;
@@ -60,6 +62,7 @@
   align-self: stretch;
   position: relative;
   line-height: 33px;
+  font-size: 19.2px;
   text-transform: capitalize;
   z-index: 1;
 }
@@ -88,6 +91,7 @@
   line-height: 33px;
   text-transform: capitalize;
   z-index: 1;
+  font-size: 19.2px;
 }
 .backgroundborderoverlayblur-parent13 {
   display: flex;
@@ -102,12 +106,11 @@
   max-width: 100%;
 }
 .frame-parent48 {
-  /* width: 1520.9px; */
   width: 100%;
   display: grid;
   flex-direction: row;
   align-items: flex-start;
-  gap: var(--gap-44xl);
+  gap: 40px;
   grid-template-columns: repeat(3, minmax(349px, 1fr));
   flex-shrink: 0;
   font-size: var(--font-size-5xl);
@@ -124,7 +127,7 @@
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
-  gap: var(--gap-52xl);
+  gap: 45px;
   z-index: 2;
   text-align: center;
   font-size: var(--font-size-29xl);

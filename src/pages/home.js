@@ -28,6 +28,8 @@ const Home = () => {
   }, [location]);
   return (
     <div className="home2">
+     
+
         <Navbar />
       <div className="homepagemainimage">
 
@@ -45,7 +47,7 @@ const Home = () => {
           <div className="empowering-unmanned-aerial-op-parent">
             <h1 className="empowering-unmanned-aerial-container">
               <p className="empowering">{`“Empowering `}</p>
-              <p className="unmanned-aerial-operations">{`unmanned aerial Movement/ Movability `}</p>
+              <p className="unmanned-aerial-operations">{`unmanned aerial Movement / Mobility `}</p>
               <p className="to-fly-everywhere">to fly everywhere safely.”</p>
             </h1>
             <div className="backgroundborder2">

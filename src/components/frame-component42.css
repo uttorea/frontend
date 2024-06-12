@@ -1,7 +1,7 @@
 
   .backgroundborderoverlayblur-icon7 {
     align-self: stretch;
-    height: 250px;
+    height: 280px;
     position: relative;
     border-radius: var(--br-base);
     width: 100%;
@@ -14,10 +14,11 @@
    .multirotor-drone-for3,.land-based-recovery2,
    .sea-based-recovery3,.fixed-wing-drone6,.fixed-wing-drone5,
    .land-based-recovery3,.land-based-recovery3{
-    font-size: 20px;
+    font-size: 19.2px;
     font-family: poppins;
     margin: 0;
     font-weight: 100;
+    line-height: 26.4px;
   
    }
   .multirotor-drone-for-container2 {
@@ -33,15 +34,13 @@
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-start;
-    padding: 0 0 var(--padding-smi-9);
     box-sizing: border-box;
-    /* gap: var(--gap-sm-4); */
     width: 100%;
     
   }
   .backgroundborderoverlayblur-icon8 {
     align-self: stretch;
-    height: 250px;
+    height: 280px;
     position: relative;
     border-radius: var(--br-base);
     max-width: 100%;
@@ -73,7 +72,7 @@
   }
   .backgroundborderoverlayblur-icon9 {
     align-self: stretch;
-    height: 250px;
+    height: 280px;
     position: relative;
     border-radius: var(--br-base);
     max-width: 100%;
@@ -108,7 +107,7 @@
   }
   .backgroundborderoverlayblur-icon10 {
     align-self: stretch;
-    height: 250px;
+    height: 280px;
     position: relative;
     border-radius: var(--br-base);
     max-width: 100%;
@@ -144,25 +143,28 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: var(--gap-21xl-3);
+    gap: 30px;
     width: 100%;
     grid-template-columns: repeat(4, minmax(262px, 1fr));
     z-index: 1;
   }
   .explore-inflatable-airbags {
     position: relative;
-    font-size: var(--font-size-5xl);
+    font-size: 19.2px;
+    /* font-size: var(--font-size-5xl); */
     letter-spacing: 0.5px;
     line-height: 15px;
     text-transform: capitalize;
     font-family: var(--font-poppins);
     color: var(--cyan);
     text-align: center;
+    font-weight: 100;
   }
   .vector-icon4 {
     width: 17.2px;
     height: 11.5px;
     position: relative;
+
   }
   .vector-wrapper1 {
     display: flex;
@@ -170,6 +172,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     padding-left: 1px;
+   
   }
   .explore-inflatable-airbags-sys-parent,
   .frame-wrapper17 {
@@ -195,6 +198,7 @@
     justify-content: flex-start;
     gap: var(--gap-10xl);
     z-index: 1;
+    
   }
   .explore-inflatable-airbags-sys-parent:hover{
       
@@ -204,7 +208,7 @@
    
   }
   .frame-wrapper17 {
-    margin-top: 30px;
+    margin-top: 0px;
     width: 1510.8px;
     justify-content: center;
     padding: 0 var(--padding-xl);

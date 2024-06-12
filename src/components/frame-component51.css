@@ -2,21 +2,22 @@
   margin: 0;
   align-self: stretch;
   position: relative;
-  font-size: inherit;
+  font-size:38.4px;
   line-height: 12px;
   text-transform: capitalize;
   font-weight: 700;
-  font-family: inherit;
+  font-family:urbanist;
   flex-shrink: 0;
   z-index: 1;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 .our-recovery-system {
-  width: 938.7px;
+  width: 750.96px;
   position: relative;
   letter-spacing: 0.04em;
   line-height: 30px;
-  font-weight:300;
+  font-size: 19.2px;
+  font-weight:100;
   padding-top: 0px;
   margin-top: 0px;
   display: flex;
@@ -49,18 +50,20 @@
 
 } */
 .explore-our-range {
-  width: 944.4px;
+  width: 775.52px;
   position: relative;
   letter-spacing: 0.04em;
-  line-height: 30px;
+  line-height: 24x;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
   max-width: 100%;
   z-index: 1;
-  font-weight: 300;
+  font-weight: 100;
+  font-size: 19.2px;
   font-family: poppins;
+  margin-top: 15px;
 }
 .explore-our-range-of-recovery-wrapper {
   align-self: stretch;
@@ -80,7 +83,8 @@
   width: 1358px;
   flex-direction: column;
   justify-content: flex-start;
-  gap: var(--gap-41xl);
+  /* gap: var(--gap-41xl); */
+  gap: 40px;
 }
 .frame-wrapper15 {
   align-self: stretch;
@@ -129,11 +133,11 @@ padding-top: 60px;
   margin-right: auto;
   align-items: center;
   justify-content: center;
-  gap: 15%;
+  gap: 8%;
 }
 .assentnmimagesection{
   
-  width: 502.4px;
+  width: 532.4px;
   height: 428.8px;
   flex: 1;
   box-shadow: var(--blue-blur);
@@ -156,17 +160,21 @@ padding-top: 60px;
 .asentimageicon{
   width: 268.36px;
   height: 352px;
+ margin-bottom: -10px;
+  
 }
 .assentmname{
+  font-size: 19.2px;
   margin-top: 10px;
   cursor: pointer;
 }
 .deassentmname{
+  font-size: 19.2px;
   margin-top: 10px;
   cursor: pointer;
 }
 .dessentnmimagesection{
-  width: 502.4px;
+  width: 532.4px;
   height: 428.8px;
   flex: 1;
   box-shadow: var(--blue-blur);
@@ -192,7 +200,7 @@ padding-top: 60px;
 .decntmimageicon{
   width: 358.296px;
 height: 192.4px;
-/* padding-bottom: 45px; */
+/* padding-bottom: 10px; */
 }
 .assentnmhr{
   color:cyan;

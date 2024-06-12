@@ -6,24 +6,24 @@
 .autonomous-drone-safety {
   margin: 0;
   align-self: stretch;
-  font-size: inherit;
+  font-size: 38.4px;
   letter-spacing: 0.02em;
   line-height: 12px;
-  font-weight: 900;
-  font-family: inherit;
+  font-weight: 700;
+  font-family: poppins;
   z-index: 1;
 }
 .at-uttoria-we {
-  /* height: 250px; */
+
   flex: 1;
-  letter-spacing: 0.95px;
-  line-height: 46px;
+  letter-spacing: 0.76px;
+  line-height: 36.8px;
   white-space: pre-wrap;
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 100%;
-  font-size: 20px;
+  width: 100%;
+  font-size: 19.2px;
   font-weight: 100;
 }
 .backgroundborder7 {
@@ -43,8 +43,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-112xl) var(--padding-61xl);
-  padding-top: 50px;
+  padding: 80px 80px ;
   
   max-width: 100%;
   z-index: 1;
@@ -55,6 +54,7 @@
   position: absolute;
   width: 100%;
   object-fit: contain;
+  
 }
 .backgroundborder-item {
   position: absolute;
@@ -88,7 +88,8 @@
   align-self: stretch;
   flex-direction: row;
   justify-content: center;
-  gap: var(--gap-82xl);
+  /* gap: var(--gap-82xl); */
+  gap: 6%;
   text-align: left;
   font-size: var(--font-size-5xl);
   color: var(--white);
@@ -109,7 +110,7 @@
   justify-content: flex-start;
   /* gap: var(--gap-179xl); */
   gap: 106px;
-  padding-top: 1.8%;
+  /* padding-top: 1.8%; */
 }
 .home-inner1 {
   margin-left: auto;
@@ -118,7 +119,7 @@
   align-self: stretch;
   flex-direction: row;
   justify-content: center;
-  padding: 0px var(--padding-8xl) 22.3% var(--padding-xl);
+  margin-bottom: 15%;
   box-sizing: border-box;
   text-align: center;
   font-size: var(--font-size-29xl);
