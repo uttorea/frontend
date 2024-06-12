@@ -51,7 +51,7 @@
   padding-top: 40px;
 }
 .need-help-lets-discuss-you-group {
-  width: 488.4px;
+  width: 390.5px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -123,7 +123,7 @@
   z-index: 1;
 }
 .name-group {
-  width: 418.7px;
+  width: 334.96px;
   flex-direction: column;
   gap: var(--gap-base-2);
 }
@@ -184,7 +184,7 @@
   max-width: 100%;
 }
 .contact-group {
-  width: 418.7px;
+  width: 334.96px;
   flex-direction: column;
   justify-content: flex-start;
   gap: var(--gap-base-2);
@@ -285,7 +285,7 @@ margin-bottom: 10px;
   font-family: var(--font-poppins);
 }
 .email-group {
-  width: 418.7px;
+  width: 334.96px;
   gap: var(--gap-base-2);
 }
 .subject2 {
@@ -307,7 +307,6 @@ margin-bottom: 10px;
   max-width: 100%;
 }
 .reason-for-the2 {
-  width: 323.2px;
   border: 0;
   outline: 0;
   font-family: var(--font-poppins);
@@ -342,7 +341,7 @@ margin-bottom: 10px;
   max-width: 100%;
 }
 .subject-group {
-  width: 418.7px;
+  width: 334.96px;
   flex-direction: column;
   justify-content: flex-start;
   gap: var(--gap-base-2);
@@ -410,7 +409,7 @@ margin-bottom: 10px;
   align-items: flex-start;
   z-index: 1;
   margin-top: 50px;
-  margin-left: 70%;
+  margin-left: 59%;
 }
 .send-message-frame:hover {
   background-color: var(--color-darkturquoise-200);
@@ -440,7 +439,8 @@ margin-bottom: 10px;
 .frame-parent33 {
   width: 1520px;
   justify-content: flex-start;
-  gap: var(--gap-84xl-5);
+  gap: 60px;
+  /* gap: var(--gap-84xl-5); */
 }
 .frame-wrapper12 {
   padding-bottom: 14%;
@@ -452,6 +452,9 @@ margin-bottom: 10px;
   font-size: var(--font-size-45xl);
   color: var(--secondary);
   font-family: var(--font-poppins);
+width: 80%;
+margin-left: auto;
+margin-right: auto;
 
 }
 @media screen and (max-width: 1350px) {

@@ -1,7 +1,7 @@
 
   .backgroundborderoverlayblur-icon7 {
     align-self: stretch;
-    height: 350px;
+    height: 250px;
     position: relative;
     border-radius: var(--br-base);
     width: 100%;
@@ -9,17 +9,24 @@
     flex-shrink: 0;
     box-shadow: var(--blue-blur);
   }
-  .multirotor-drone-for2,
-  .sea-based-recovery2 {
+  
+  .multirotor-drone-for2,.sea-based-recovery2,
+   .multirotor-drone-for3,.land-based-recovery2,
+   .sea-based-recovery3,.fixed-wing-drone6,.fixed-wing-drone5,
+   .land-based-recovery3,.land-based-recovery3{
+    font-size: 20px;
+    font-family: poppins;
     margin: 0;
-    font-weight: 300;
-  }
+    font-weight: 100;
+  
+   }
   .multirotor-drone-for-container2 {
     align-self: stretch;
     position: relative;
     letter-spacing: -0.01em;
     line-height: 33px;
     text-transform: capitalize;
+    margin-top: 10px;
   }
   .backgroundborderoverlayblur-parent6 {
     display: flex;
@@ -34,7 +41,7 @@
   }
   .backgroundborderoverlayblur-icon8 {
     align-self: stretch;
-    height: 350px;
+    height: 250px;
     position: relative;
     border-radius: var(--br-base);
     max-width: 100%;
@@ -45,7 +52,7 @@
   .land-based-recovery2,
   .multirotor-drone-for3 {
     margin: 0;
-    font-weight: 300;
+    font-weight: 100;
   }
   .multirotor-drone-for-container3 {
     align-self: stretch;
@@ -66,7 +73,7 @@
   }
   .backgroundborderoverlayblur-icon9 {
     align-self: stretch;
-    height: 350px;
+    height: 250px;
     position: relative;
     border-radius: var(--br-base);
     max-width: 100%;
@@ -78,7 +85,7 @@
   .fixed-wing-drone5,
   .sea-based-recovery3 {
     margin: 0;
-    font-weight: 300;
+    font-weight: 100;
   }
   .fixed-wing-drone-container2 {
     align-self: stretch;
@@ -101,7 +108,7 @@
   }
   .backgroundborderoverlayblur-icon10 {
     align-self: stretch;
-    height: 350px;
+    height: 250px;
     position: relative;
     border-radius: var(--br-base);
     max-width: 100%;
@@ -112,7 +119,7 @@
   .fixed-wing-drone6,
   .land-based-recovery3 {
     margin: 0;
-    font-weight: 300;
+    font-weight: 100;
   }
   .fixed-wing-drone-container3 {
     align-self: stretch;
@@ -209,7 +216,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    max-width: 100%;
+    width: 100%;
   }
   .frame-parent44 {
     align-self: stretch;

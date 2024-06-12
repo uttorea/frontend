@@ -17,6 +17,8 @@ const FrameComponent41 = () => {
           Enhance Safety with Inflatable Solutions
         </h1>
         <div className="backgroundborder-wrapper">
+
+          
           <div className="backgroundborder9">
             <div className="our-inflatable-solutions-container">
               <span>
@@ -49,6 +51,9 @@ const FrameComponent41 = () => {
               </div>
             </div>
           </div>
+
+
+
         </div>
         
         <FrameComponent42/>

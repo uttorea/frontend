@@ -24,7 +24,7 @@
 }
 .backgroundborderoverlayblur-icon11 {
   align-self: stretch;
-  height: 400px;
+  height: 320px;
   position: relative;
   border-radius: var(--br-base);
   max-width: 100%;
@@ -47,7 +47,7 @@
 
 .backgroundborderoverlayblur-icon12 {
   align-self: stretch;
-  height: 400px;
+  height: 320px;
   position: relative;
   border-radius: var(--br-base);
   max-width: 100%;
@@ -73,7 +73,7 @@
 }
 .backgroundborderoverlayblur-icon13 {
   align-self: stretch;
-  height: 400px;
+  height: 320px;
   position: relative;
   border-radius: var(--br-base);
   max-width: 100%;
@@ -102,7 +102,8 @@
   max-width: 100%;
 }
 .frame-parent48 {
-  width: 1520.9px;
+  /* width: 1520.9px; */
+  width: 100%;
   display: grid;
   flex-direction: row;
   align-items: flex-start;
@@ -114,6 +115,9 @@
   font-family: var(--font-poppins);
 }
 .rectangle-parent12 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
   align-self: stretch;
   overflow: hidden;
   display: flex;
@@ -127,7 +131,8 @@
   color: var(--cyan);
   font-family: var(--font-urbanist);
   padding-top:0;
-  padding-bottom: 11.7%;
+  height: 806px;
+  /* padding-bottom: 11.7%; */
 
 }
 @media screen and (max-width: 1350px) {

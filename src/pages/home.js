@@ -28,8 +28,8 @@ const Home = () => {
   }, [location]);
   return (
     <div className="home2">
-      <div className="homepagemainimage">
         <Navbar />
+      <div className="homepagemainimage">
 
         <section className="home-inner">
           <video autoPlay muted loop playsInline className="background-video">
@@ -59,6 +59,7 @@ const Home = () => {
             </div>
           </div>
         </section>
+
         <FrameComponent51 id='discoversection'/>
         <FrameComponent41 />
         <FrameComponent6 />

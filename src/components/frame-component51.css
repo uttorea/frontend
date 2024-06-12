@@ -104,7 +104,9 @@
   max-width: 100%;
 }
 .home-inner2 {
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -123,15 +125,16 @@ padding-top: 60px;
 }
 
 .recoversectionimages{
-  display: flex;
+  display: flex;margin-left: auto;
+  margin-right: auto;
   align-items: center;
   justify-content: center;
   gap: 15%;
 }
 .assentnmimagesection{
   
-  width: 628px;
-  height: 536px;
+  width: 502.4px;
+  height: 428.8px;
   flex: 1;
   box-shadow: var(--blue-blur);
   border-radius: var(--br-base);
@@ -151,20 +154,20 @@ padding-top: 60px;
   background: url('../../public/blureimg.png');
 }
 .asentimageicon{
-  width: 335.67px;
-  height: 440.2px;
+  width: 268.36px;
+  height: 352px;
 }
 .assentmname{
-  margin-top: 16px;
+  margin-top: 10px;
   cursor: pointer;
 }
 .deassentmname{
-  margin-top: 15px;
+  margin-top: 10px;
   cursor: pointer;
 }
 .dessentnmimagesection{
-  width: 628px;
-  height: 536px;
+  width: 502.4px;
+  height: 428.8px;
   flex: 1;
   box-shadow: var(--blue-blur);
   border-radius: var(--br-base);
@@ -173,7 +176,7 @@ padding-top: 60px;
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-start;
-  padding-top: 160px;
+  padding-top: 150px;
   gap: var(--gap-8xs-6);
   
   z-index: 1;
@@ -187,9 +190,9 @@ padding-top: 60px;
 }
 
 .decntmimageicon{
-  width: 447.82px;
-height: 239.63px;
-padding-bottom: 45px;
+  width: 358.296px;
+height: 192.4px;
+/* padding-bottom: 45px; */
 }
 .assentnmhr{
   color:cyan;

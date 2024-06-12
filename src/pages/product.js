@@ -20,7 +20,7 @@ const Product = () => {
             <h1 className="recoverysystemh1">Recovery Systems</h1>
             <p className="plug-and-play">Plug and Play solution</p>
             <h3 className="what-we-do">What we do</h3>
-            <div className="we-design-and-parent">
+            {/* <div className="we-design-and-parent">
               <p className="we-design-and">
                 We design and deliver plug-and-play recovery systems and
                 parachute based emergency recovery systems for fixed wing,
@@ -30,7 +30,7 @@ const Product = () => {
                 We offer airframe specific customised products from 50 kgs to
                 250 kgs All Up Weight.
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
 
