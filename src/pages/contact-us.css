@@ -1,6 +1,6 @@
 .contectusmain{
   width: 100%;
-  font-size: 24px;
+  font-size: 19.2px;
 }
 
 .frame-wrapper121{
@@ -9,13 +9,7 @@
 .image-25-icon{
   width: 100%;
 }
-.contectusdivmain{
-  display: flex;
-  gap: 80px;
-  margin-top: -10px;
-  padding-top: 17px;
-  margin-bottom: -10px;
-}
+
 .contectusleft{
   width: 35%;
   position: relative;
@@ -28,7 +22,7 @@
 }
 
 .addressmain,.forinquarymain,.for-sales-inquari-main{
-  margin-left: 33%;
+  /* margin-left: 33%; */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -43,8 +37,8 @@
   );
   border: 1px solid var(--secondary);
   border-radius: 5px;
-  width: 386px;
-  height: 189px;
+  width: 308.8px;
+  height: 151.2px;
 
 }
 .for-sales-inquari-main{
@@ -55,10 +49,10 @@
 }
 .name-group1,.contact-group1{
   margin-top: 20px;
-  width: 41%;
+  width: 100%;
 }
 .email-group11,.subject-group1{
-width: 41%;
+width: 100%;
 }
 .email21,.subject21{
   width: 100%;
@@ -76,12 +70,24 @@ width: 41%;
   height:2;
 }
 .contectusdivmain{
+  display: flex;
+  gap: 80px;
+  margin-top: -10px;
+  padding-top: 17px;
+  margin-bottom: -10px;
   background-color: var(--background);
   background-image: url('../../public/Frame\ 427318931\ 1.png');
   background-repeat: no-repeat;
   background-position:center bottom;
 
 
+}
+.contectusall{
+  width: 80%;
+  display: flex;
+  gap: 80px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .frame-parent351{
   display: flex;
@@ -95,7 +101,7 @@ width: 41%;
 gap: 48px;
 }
 .name21, .contact21,.email21,.subject21,.message21{
-  font-size: 32px;
+  font-size: 25.6px;
   font-family: urbanist;
   color: white;
   
@@ -121,8 +127,8 @@ gap: 48px;
   margin-top: 30px;
 }
 .your-full-name21 ,.phno-name271,.reason-for-the21,.emailinput1{
-  font-size: 24px;
-  line-height: 48px;
+  font-size: 19.2px;
+  line-height: 38.4px;
   font-family: urbanist;
   background: transparent;
   border: none;
@@ -131,13 +137,6 @@ gap: 48px;
 color:#F2F2F8;
 width: 100%;
 }
-
-.reason-for-the21{
-  /* margin-left: 15px */
-}
-
-
-
 .frame-parent381{
   margin-top: 30px;
   margin-left: 20px;
@@ -145,8 +144,8 @@ width: 100%;
   
 }
 .addresssection h1{
-  padding-left: 45px;
-  font-size: 24px;
+  padding-left: 30px;
+  font-size: 19.2px;
   margin-top: 16px;
   font-weight: 600;
   font-family: urbanist;
@@ -154,8 +153,8 @@ width: 100%;
 
 }
 .addresssection p{
-  padding-left: 45px;
-  font-size: 24px;
+  padding-left: 30px;
+  font-size: 19.2px;
  color: white;
   font-weight: 400;
   font-family: poppins;
@@ -164,22 +163,22 @@ width: 100%;
 
 .spanelementor-icon1{
   margin-left: 30px;
-  width: 27.45px;
-  height: 36px;
+  width: 21.96px;
+  height: 28.8px;
 }
 .spanelementor-2{
   margin-left: 30px;
-  width: 36.5px;
-  height: 36px;
+  width: 29px;
+  height: 28.8px;
 }
 .spanelementor-3{
   margin-left: 30px;
-  width: 36px;
-  height: 36px;
+  width: 28.8px;
+  height: 28.8px;
 }
 .forinquari-heading h1{
   padding-left: 45px;
-  font-size: 24px;
+  font-size: 19.2px;
   /* margin-top: -10px; */
   font-weight: 600;
   font-family: urbanist;
@@ -187,8 +186,8 @@ width: 100%;
 
 }
 .forinquari-heading p{
-  padding-left: 45px;
-  font-size: 24px;
+  padding-left: 30px;
+  font-size: 19.2px;
  color: white;
   font-weight: 400;
   font-family: poppins;
@@ -196,16 +195,16 @@ width: 100%;
 }
 
 .forsalehead h1{
-  padding-left: 45px;
-  font-size: 24px;
+  padding-left: 30px;
+  font-size: 19.2px;
   /* margin-top: -10px; */
   font-weight: 600;
   font-family: urbanist;
   margin-bottom:20px;
 }
 .forsalehead p{
-  padding-left: 45px;
-  font-size: 24px;
+  padding-left: 30px;
+  font-size: 19.2px;
  color: white;
   font-weight: 400;
   font-family: poppins;
@@ -216,8 +215,9 @@ textarea.frame-child27{
   margin-top: 30px;
   border-radius: 5px;
   overflow: hidden;
-   width: 1033px; 
-   height: 224.53px;
+  width: 98%;
+   /* width: 800.4px;  */
+   height: 179.5px;
     resize: none;
     background-color: transparent;
     font-family: var(--font-poppins);
@@ -232,21 +232,22 @@ textarea.frame-child27{
 .send-message-frame1{
   margin-top: 33px;
   border-radius: 7.72px;
-  font-size: 24px;
+  font-size: 19.2px;
   font-weight: 400;
   color: cyan;
   align-items: center;
   justify-content: center;
-margin-left: 58.1%;
+  
+margin-left: 65.1%;
 background:transparent;
 border: 2px solid cyan;
 margin-bottom: 220px;
 }
 .send-message21{
 
-  height: 50px;
+  height: 40px;
   padding-top: 20px;
-  width: 306.28px;
+  width: 244.8px;
   align-items: center;
   justify-content: center;
   border-radius: 7.72px;

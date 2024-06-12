@@ -15,8 +15,8 @@ const FrameComponent8 = () => {
       <div className="our-solutions-parent">
         <h1 className="our-solution">Our Inflatable Recovery Solutions</h1>
 
-        <div className="our-solutions-container">
-          <div className="our-p-solutions">
+        <div className="our-solutions-container1">
+          <div className="our-p-solutions1">
             Uttorea offers a range of safety and recovery systems designed to
             meet the diverse needs of the aerospace industry. From custom
             solutions for speciality or customized UAS to off-the-shelf systems

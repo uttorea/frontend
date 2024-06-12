@@ -1,10 +1,11 @@
 .choose-h1 {
     margin: 0;
+    margin-top: 20px;
     align-self: stretch;
     position: relative;
-    font-size: 48px;
+    font-size: 38.4px;
     letter-spacing: 0.04em;
-    line-height: 89px;
+    line-height: 71.2px;
     text-transform: capitalize;
     font-weight: 700;
     font-family: urbanist;
@@ -15,9 +16,9 @@
   .cost-of-test-and-certificate{
     color: cyan;
     margin: 0;
-    font-size: 36px;
-    line-height:46px;
-    letter-spacing: 4%;
+    font-size: 28.8px;
+    line-height:36.8px;
+    letter-spacing: 3.2%;
     font-weight: 700;
     font-family: urbanist;
     padding-left: 20px;
@@ -26,16 +27,16 @@
   .experience-and-turnaround-p,
   .cost-of-integration-p,
   .cost-of-test-p{
-    font-size: 24px;
+    font-size: 19.2px;
     margin: 0;
     padding-top: 40px ;
     padding-left: 10px;
     padding-right: 10px;
     color: white;
-    line-height: 35px;
+    line-height: 28px;
     letter-spacing: 0%;
     font-family: poppins;
-    font-weight: 300;
+    font-weight: 100;
    
   }
   .experience-and-turnaround-time {
@@ -45,9 +46,9 @@
     text-transform: capitalize;
   }
   .div1-choose, .div2-choose, .div3-choose{
-    width: 466px;
-    height: 420px;
-    /* box-shadow: var(--blue-blur); */
+    width: 372.8px;
+    height: 336px;
+    box-shadow: var(--blue-blur);
     box-shadow: 0px 15px 60px rgba(59, 105, 178, 0.15);
     border-radius: var(--br-5xs);
     background: linear-gradient(
@@ -97,7 +98,8 @@
     width: 1520px;
     flex-direction: column;
     justify-content: flex-start;
-    gap: var(--gap-32xl);
+    /* gap: var(--gap-32xl); */
+    gap: 30px;
     margin-top: 10%;
   }
   .why-choose {
@@ -108,26 +110,24 @@
     justify-content: center;
     padding: 0 var(--padding-xl);
     box-sizing: border-box;
-    max-width: 100%;
+    width: 80%;
     text-align: center;
     font-size: var(--font-size-29xl);
     color: var(--cyan);
     font-family: var(--font-urbanist);
+    margin-left: auto;
+    margin-right: auto;
   }
   .why-choose-uttorea-discription{
     color: white;
     margin-top:40px;
-    width: 1520px;
-    line-height: 46px;
-    font-size: 24px;
-    letter-spacing: 0.96px;
+    width: 1216px;
+    line-height: 36.8px;
+    font-size: 19.2px;
+    letter-spacing: 0.70px;
     z-index: 1;
     text-align: start;
-    padding-left: 1%;
-   
     font-family: poppins;
-    
-    
 }
   @media screen and (max-width: 900px) {
     .choose-h1 {

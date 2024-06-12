@@ -14,9 +14,8 @@ const AboutUs = () => {
      <div className="aboutmaindiv">
 
            <Navbar/>
-      <div className="overlay1" />
-      <div className="gradient1" />
-     
+  
+     <div className="aboutusall">
       <div className="about-us-inner">
         <div className="frame-group">
           <div className="uttorea-parent">
@@ -41,13 +40,14 @@ const AboutUs = () => {
           <div className="backgroundborder">
             <div className="imbibing-the-qualities-container">
               <span>
-                <p className="imbibing-the-qualities">{` Imbibing the qualities of our name, Uttoria’s goal is about bringing safety & protection to Unmanned Aerial Systems (UAS), Remotely Piloted Aerial Systems (RPAS)  & Urban Air Mobility (UAM) operations. `}</p>
+                <p className="imbibing-the-qualities">{`Uttoria’s goal is about bringing safety & protection to Unmanned Aerial Systems (UAS), Remotely Piloted Aerial Systems (RPAS)  & Urban Air Mobility (UAM) operations. `}</p>
                 <p className="blank-line">&nbsp;</p>
                 <p className="our-mission-is">{`Our mission is to safeguard the life and property of the UAS & UAM eco-system and all its shareholders. Be it The operators, end-users, government regulatory bodies and the civil airspace they fly over across the globe through continuous R&D and investment into our product and service portfolio`}</p>
               </span>
             </div>
           </div>
         </div>
+      </div>
       </div>
       <FrameComponent9/>
       <FrameComponent8/>

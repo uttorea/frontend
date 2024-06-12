@@ -70,7 +70,11 @@ const ContactUs = () => {
           <div className='mapimage'>
             <img className="image-25-icon" alt="" src="/Section 2.png" />
             <div className="overlay-parent"/>
+
+
+
             <div className='contectusdivmain'>
+              <div className='contectusall'>
               <div className="contectusleft">
                 <div className='addressmain'>
                   <div className='addressall'>
@@ -173,7 +177,9 @@ const ContactUs = () => {
                   <div className="send-message21">Send message</div>
                 </button>
               </div>
+              </div>
             </div>
+
           </div>
         </div>
       </section>
