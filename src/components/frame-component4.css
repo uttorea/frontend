@@ -2,9 +2,9 @@
   margin: 0;
   align-self: stretch;
   position: relative;
-  font-size: 48px;
+  font-size: 38.4px;
   letter-spacing: 0.04em;
-  line-height: 89px;
+  line-height: 71.2px;
   text-transform: capitalize;
   font-weight: 700;
   font-family: urbanist;
@@ -21,7 +21,8 @@
   text-transform: capitalize;
 }
 .div2 {
-  width: 250px;
+  width: 200px;
+  height: 240px;
   box-shadow: var(--blue-blur);
   border-radius: var(--br-5xs);
   background: linear-gradient(
@@ -37,7 +38,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-57xl) var(--padding-3xl);
+  padding: 50px var(--padding-3xl);
 }
 .airframe-attachment-and,
 .quicklinks-and-carabiners {
@@ -50,7 +51,8 @@
   text-transform: capitalize;
 }
 .div3 {
-  width: 275px;
+  width: 220px;
+  height: 240px;
   box-shadow: var(--blue-blur);
   border-radius: var(--br-5xs);
   background: linear-gradient(
@@ -66,7 +68,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-57xl) var(--padding-3xl);
+  padding: 50px var(--padding-3xl);
 }
 .electro-mechanical-pyrotechni1,
 .triggered-through-pwmelectric {
@@ -78,7 +80,7 @@
   line-height: 29px;
   text-transform: capitalize;
 }
-.div4 {
+.div14 {
   flex: 1;
   box-shadow: var(--blue-blur);
   border-radius: var(--br-5xs);
@@ -94,9 +96,9 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-57xl) var(--padding-3xl);
-  min-width: 227px;
-  max-width: 100%;
+  padding: 50px var(--padding-3xl);
+width: 280px;
+ height: 240px;
 }
 .maintenance-manual,
 .operations-and {
@@ -109,7 +111,8 @@
   text-transform: capitalize;
 }
 .div5 {
-  width: 275px;
+  width: 220px;
+  height: 240px;
   box-shadow: var(--blue-blur);
   border-radius: var(--br-5xs);
   background: linear-gradient(
@@ -125,7 +128,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-86xl) var(--padding-3xl);
+  padding: 80px var(--padding-3xl);
 }
 .canopyairbag,
 .customized-parachute {
@@ -138,7 +141,8 @@
   text-transform: capitalize;
 }
 .div6 {
-  width: 250px;
+  width: 200px;
+  height: 240px;
   box-shadow: var(--blue-blur);
   border-radius: var(--br-5xs);
   background: linear-gradient(
@@ -154,13 +158,14 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-86xl) var(--padding-3xl);
+
+  padding:80px var(--padding-3xl);
 }
 .group,
 .our-plug-and-play-systems-incl-parent {
   display: flex;
   align-items: flex-start;
-  max-width: 100%;
+  width: 100%;
 }
 .group {
   align-self: stretch;
@@ -169,7 +174,8 @@
   justify-content: center;
   gap: var(--gap-11xl);
   z-index: 1;
-  font-size: var(--font-size-5xl);
+  font-size: 19.2px;
+  /* font-size: var(--font-size-5xl); */
   color: var(--white);
   font-family: var(--font-poppins);
 }
@@ -186,10 +192,12 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  padding: 0 var(--padding-xl);
+  /* padding: 0 var(--padding-xl); */
   box-sizing: border-box;
-  max-width: 100%;
-  height: 735px;
+  max-width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  height: 588px;
   text-align: center;
   font-size: var(--font-size-29xl);
   color: var(--cyan);

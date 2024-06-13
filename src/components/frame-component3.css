@@ -2,9 +2,9 @@
   margin: 0;
   align-self: stretch;
   position: relative;
-  font-size: 48px;
-  letter-spacing: 0.04em;
-  line-height: 89px;
+  font-size: 38.4px;
+  letter-spacing: .4;
+  line-height:71.2px;
   text-transform: capitalize;
   font-weight: 700;
   font-family: urbanist;
@@ -46,10 +46,11 @@
 }
 
 .img1{
-  width: 100%;
-  height: 380px;
+  width: 340px;
+  height: 376px;
   position: relative;
   bottom: 0px;
+  border-radius: 10px;
 }
 .generateanimageshowcasinguttor-group {
   position: absolute;
@@ -71,20 +72,21 @@
   max-width: 108%;
 }
 .generateanimageshowcasinguttor-parent {
-  height: 470px;
-  width: 426px;
+  /* height: 376px;
+  width: 340.8px; */
   border-radius: 6.25px;
-  /* background-color: var(--color-darkslategray); */
   overflow: hidden;
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-start;
-  padding: var(--padding-16xl) 0 var(--padding-416xl);
+  padding-top: 30px;
+  padding-bottom:30px;
+  border-radius: 5px;
+  /* padding: var(--padding-16xl) 0 var(--padding-416xl); */
   box-sizing: border-box;
-  min-width: 426px;
-  max-width: 100%;
+ 
 }
 .uttoria-offers-oem {
   margin-block-start: 0;
@@ -98,25 +100,25 @@
   /* height: 405px; */
   position: relative;
   letter-spacing: 0.04em;
-  line-height: 46px;
+  /* line-height: 36.8px; */
   text-transform: capitalize;
   display: flex;
   align-items: center;
+  
 }
 .backgroundborder6,
 .uttoria-offers-oem-integration-wrapper {
   box-sizing: border-box;
   display: flex;
   align-items: flex-start;
-  max-width: 100%;
-  /* height: ; */
+  width: 100%;
 }
 .uttoria-offers-oem-integration-wrapper {
   flex: 1;
   flex-direction: column;
   justify-content: flex-start;
   padding: var(--padding-13xl-5) 0 0;
-  min-width: 578px;
+  /* min-width: 578px; */
 }
 .backgroundborder6 {
   align-self: stretch;
@@ -130,11 +132,10 @@
   border: 1px solid var(--color-gray-100);
   flex-direction: row;
   justify-content: center;
-  padding: var(--padding-49xl) var(--padding-45xl);
+  padding: 20px 50px;
   gap: var(--gap-52xl);
   z-index: 1;
   text-align: left;
-  font-size: var(--font-size-5xl);
   color: var(--white);
   font-family: var(--font-poppins);
 }
@@ -153,24 +154,31 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  padding: 0 var(--padding-xl);
+  /* padding: 0 var(--padding-xl); */
   box-sizing: border-box;
-  max-width: 100%;
+  width: 80%;
   text-align: center;
-  font-size: var(--font-size-29xl);
   color: var(--cyan);
   font-family: var(--font-urbanist);
-  
+  margin-left: auto;
+  margin-right: auto;
 }
 .uttoria-offers-oem
 ,.our-engineering,.with-uttoria-as{
-  font-size: 24px;
-  font-weight: 200;
+  font-size: 19.2px;
+  font-weight: 100;
   font-family: poppins;
-  letter-spacing: 4%;
-  line-height: 36px;
+  letter-spacing: 3%;
+  line-height: 28.8px;
   margin-bottom: 0px;
+ 
   
+}
+.our-engineering{
+  margin-top: 40px;
+}
+.with-uttoria-as{
+  margin-top: 50px;
 }
 
 @media screen and (max-width: 1350px) {

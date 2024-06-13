@@ -2,36 +2,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 124vh;
-    width: 100%;
+    height: 99.2vh;
+    width: 80%;
    color: white;
     position: relative;
+    margin-left: auto;
+    margin-right: auto;
   }
  
   .ellipse {
     position: absolute;
-    top: 320px;
-    width: 798.5px;
-    height: 329.8px;
+    top: 150px;
+    width:989.504px;
+    height: 408px;
     border-radius: 50%;
     transition: transform 0.2s, display 0.2s;
-    
-  }
-
-  .zoom-handle{
-   position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 45.41px;
-    height: 192.74px;
-    background: white;
-    cursor: pointer;
   }
 
   .overlay-image {
-    
     position: absolute;
-    top:260px;
+    top:140px;
     width: 286.5px; 
     height: 414px;  
     border-radius: 40%; 
@@ -47,29 +37,6 @@
     transition: transform 0.2s;
     pointer-events: none; 
   }
-  .zoom-controls {
-    position: absolute;
-   right: 20px;
-   
-   top:20px;
-   bottom: 20px;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-    
-  }
-  .zoom-handle{            
-             border-radius: 16px;      
-  }
-  .vertical-slider {
-    height: 192.7px;
-    width: 45.4px;
-    writing-mode: bt-lr; 
-    -webkit-appearance: slider-vertical;
-    position: relative;
-    border-radius: var(--br-base);
-  
-  }
   
   .zoom-image {
     transition: transform 0.2s ease, opacity 0.2s ease;
@@ -80,8 +47,8 @@
    
     position: absolute;
     top: 8%;
-    font-size: 48px;
-    line-height: 48.59px;
+    font-size: 38.4px;
+    line-height: 38.872px;
     font-weight: 700;
     font-family: var(--font-urbanist);
     color: var(--cyan);
@@ -94,62 +61,67 @@
     flex: top; 
   }
   
-  .pwm-based3 ,
+  /* .pwm-based3 ,
   .manual-sensor3,
   .automated-ejection-mod3{
-    padding-left: 160px;   
-  } 
+    margin-left: 200px; 
+  }  */
   
   .pwm-based-manual-container3 {
     position: relative;
     text-transform: capitalize;
     text-align: center;
-    font-size: 24px;
-  line-height: 3.3px;
+    font-size: 19.2px;
+  line-height:.4;
   text-align: center;
-    width: 442px;
-    height: 33px;
-    padding-left: 600px;
+    /* width: 353.6px; */
+    font-weight: 100;
+    font-family: poppins;
+   
   }
   .above-ground3,
   .effective-height-3,
   .minimum3 {
-    width: 442px;
-    height: 33px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-  
+    width: 342px;
+    /* height: 33px; */
+    /* margin-top: 0px;
+    margin-bottom: 0px; */
+    font-weight: 100;
+    font-family: poppins;
   
   }
   .minimum-effective-height-container3 {
     flex: 1;
     position: relative;
     text-align: center;
-    padding-top: 100px;
-    width: 442px;
-    font-size: 24px;
-    line-height: 3.3px;
+    padding-top: 25px;
+    
+    font-size: 19.2px;
+    
+    line-height: .4;
     text-transform: capitalize;
   }
   .minimum-effective-height-20-wrapper3 {
     align-self: stretch;
     display: flex;
+    margin-right: 50px;
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-end;
-    padding: 0 var(--padding-7xl-8) 0 0;
+    /* padding: 0 var(--padding-7xl-8) 0 0; */
   }
   .descent3,
   .speed-53 {
-    font-size: 24px;
+    font-size: 19.2px;
     width: 200px;
-    line-height: 3.3px;
+    line-height: .4;
+    font-weight: 100;
+   font-family: poppins;
   }
   .descent-speed-container3 {
     position: relative;
-    /* font-size: 24px; */
     text-align: center;
-    height: 25px;
+    margin-top: 30px;
     text-transform: capitalize;
   }
   .descent-speed-5-ms-wrapper3 {
@@ -166,37 +138,41 @@
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-start;
-    margin-bottom: 20%;
-    /* gap: var(--gap-xs); */
+    margin-bottom: 10%;
+    margin-left:-26%;
   }
   .ballistic-ejection3,
   .pneumatic-micro-servo3 {
     margin: 0;
     /* color: ; */
-    font-size: 24px;
+    font-size: 19.2px;
     text-align: center;
-    width: 442px; 
-    height: 33px;
+    width: 353.6px; 
+    line-height: .4;
+    height: 26px;
+    font-weight: 100;
+   font-family: poppins;
     
   }
   .pneumatic-micro-servo-container3 {
     letter-spacing: 0%;
-    line-height: 33px;
+   
     margin-top: 100px;
     align-self: stretch;
     position: relative;
-    line-height: 7.14px;
+    line-height: .4;
     text-transform: capitalize;
   }
   .dust-protection3,
   .waterproof-and3 {
   
     width: 197px;
-    font-size: 24px;
-    line-height: 7.14px;
+    font-size: 19.2px;
+    line-height: .4;
     align-items: center;
     /* margin: 0px; */
-    
+    font-weight: 100;
+   font-family: poppins;
     
   }
   .dust-protection3{
@@ -206,7 +182,7 @@
   .waterproof-and-dust-container3 {
     flex: 1;
     position: relative;
-    width: 197px;
+    /* width: 197px; */
     text-transform: capitalize;
     padding-left: 30%;
   }
@@ -224,48 +200,62 @@
     flex: 1;
     
     height: 293.345px;
-    width: 681.545px;
+    /* width: 681.545px; */
     align-items: center;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-start;
-    gap: 260px;
+    gap: 300px;
     
   }
   
-  
-  .advanced-carbon,
-  .composite-structure3 {
-    font-size: 24px;
-    line-height: 3.3px;
+  .advanced-carbon31,
+  .composite-structure31,.ejectionmode1{
+    font-size: 19.2px;
+    line-height: .4;
     align-items: starts;
-    width: 316px;
+    font-weight: 100;
+    font-family: poppins;
+    width: 280px;
+    margin-top: 0;
+
+  }
+
+
+  .advanced-carbon3,
+  .composite-structure3 {
+    font-size: 19.2px;
+    line-height: .4;
+    align-items: starts;
+    font-weight: 100;
+    font-family: poppins;
+
   }
   .advanced-carbon-composite-container3 {
     position: relative;
-    width: 249px;
+    width: 199.2px;
     padding-top: 35px;
     margin: 0px;
     text-align: center;
     height: 50px;
-    line-height: 7.14px;
+    line-height: .4;
     text-transform: capitalize;
     
   }
   .operating-temperature3,
   .to-50-deg3 {
-    font-size: 24px;
-    line-height: 3.3px;
+    font-size: 19.2px;
+    line-height: .4;
    text-align: center;
    width: 315px;
-   margin-left: 30px;
-   
+   font-weight: 100;
+   font-family: poppins;
   }
   .operating-temperature-container3 {
     flex: 1;
     position: relative;
-    line-height: 7.14px;
+    line-height: .4;
    text-align: center;
     padding: 30px;
     padding-bottom: 0px;
@@ -279,21 +269,23 @@
     justify-content: flex-start;
     align-items: center;
     margin-top: 7%;
-    padding: 0 0 0 var(--padding-base-1);
+    margin-right: 30px;
+    /* padding: 0 0 0 var(--padding-base-1); */
   }
   .g-shock-on3,
   .mounting-points3 {
-    
-    font-size: 24px;
-    line-height: 3.3px;
+    font-size: 19.2px;
+    line-height: .4;
    text-align: start;
-   width: 330px;
+   width: 290px;
+   font-weight: 100;
+   font-family: poppins;
   
   }
   .g-shock-on-container3 {
     position: relative;
     line-height: 3.3px;
-    width: 192px;
+    width: 160px;
     height: 50px;
     padding-right: 70px;
     text-transform: capitalize;
@@ -304,7 +296,7 @@
     align-items:end;
     justify-content: start;
     padding: 0 var(--padding-7xs);
-    margin-top: 7%;
+    margin-top: 10%;
   }
   .frame-wrapper7{
     display: flex;
@@ -316,7 +308,7 @@
   }
   .frame-parent363 {
     height: 127px;
-    width: 405px;
+    /* width: 420px; */
     display: flex;
     flex-direction: row;
     align-items: flex-end;
@@ -328,10 +320,10 @@
   }
   
   .advanced-carbon-composite-stru-parent3{
-    width: 550px;
-    height: 200px;
-    margin-top: 230px;
-    padding-right:10%;
+    width: 440px;
+    height: 160px;
+    
+    /* padding-right:1%; */
     flex-direction: column;
     align-items:center;
     justify-content: flex-start;
@@ -352,15 +344,13 @@
   }
   .arsentm-series-offers-container3 {
     align-self: center;
-    margin: 0px;
-    margin-bottom: 3%;
-    font-size:24px;
+    font-size:19.2px;
   font-family: poppins;
-    width: 1255px;
-    height: 49px;
-    top: 0;
+    width: 1004px;
+    height:39.2px;
     position: relative;
     text-transform: capitalize;
+   
   }
   .arsentm3 {
     font-weight: 600;
@@ -371,26 +361,27 @@
    cursor: pointer;
   }
   .explore-arsentm-series-container3 {
-    height: 15px;
-    width: 272px;
+    height: 12px;
+    width: 217.6px;
     padding: 20px 0px 20px 20px;
     position: relative;
-    letter-spacing: 0.5px;
-    line-height: 14.4px;
+    letter-spacing: 0.4px;
+    line-height: 11.52px;
     text-transform: capitalize;
-    display: flex;justify-content: center;
+    display: flex;
+    justify-content: center;
     align-items: center;
   }
-  .vector-icon13 {
-    width: 17.2px;
-    height: 11.5px;
+  .vector-icon1{
+    width: 13.76px;
+    height: 9.2px;
     position: relative;
   }
   .vector-wrapper3 {
     display: flex;
     flex-direction: column;
-    width: 17.2px;
-    height: 11.52px;
+    width: 13.76px;
+    height: 9.2px;
     align-items: flex-end;
     justify-content: flex-start;
     
@@ -403,16 +394,16 @@
       rgba(255, 255, 255, 0.05),
       rgba(255, 255, 255, 0)
     );
-    width: 395.2px; 
-    height: 55px;
+    width: 316.16px; 
+    height: 44px;
     gap: 10px;
     align-items: center;
-    font-size: 24px;
-    letter-spacing: 0.5;
+    font-size: 19.2px;
+    letter-spacing: 0.4;
     border: 2px solid lightseagreen;
     overflow: hidden;
     display: flex;
-   
+   font-weight: 100;
   }
   .explore-arsentm-series-parent3:hover {
     background-color: var(--color-darkturquoise-200);
@@ -420,14 +411,12 @@
     box-sizing: border-box;
   }
   .arsentm-series-offers-built-in-parent3 {
-    width: 1225px;
     display: flex;
-    margin-bottom:20%;
-    
+    margin-bottom:9%;
     flex-direction: column;
     align-items: center;
     justify-content:center;
-    max-width: 100%;
+    width: 100%;
     z-index: 4;
   }
   .frame-wrapper63 {
@@ -437,8 +426,8 @@
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    max-width: 100%;
-    font-size: var(--font-size-5xl);
+    width: 100%;
+   
   }
   
   
@@ -631,7 +620,7 @@
     .mounting-points3, .g-shock-on3 {
       font-size: 12px;
       width: 120px;
-      /* line-height: 5px; */
+     
       position: relative;
       left: 190px;
       /* bottom:25px; */

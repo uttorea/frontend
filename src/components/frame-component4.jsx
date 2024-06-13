@@ -22,7 +22,7 @@ const FrameComponent4 = () => {
               </p>
             </div>
           </div>
-          <div className="div4">
+          <div className="div14">
             <div className="electro-mechanical-pyrotechni">
               <p className="electro-mechanical-pyrotechni1">{`Electro-mechanical /Pyrotechnic Ejection Mechanism `}</p>
               <p className="triggered-through-pwmelectric">

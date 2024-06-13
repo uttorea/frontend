@@ -15,9 +15,15 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.productsectiontop{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  
+
+}
 .productallcont{
   width: 100%;
-  /* background: url('../../public/1234.svg');  */
   background-repeat: no-repeat;
   background-size: cover;
   height: 120vh;
@@ -30,65 +36,64 @@
 }
 .recoverysystemh1{
   position: absolute;
-  width: 967.47px;
+  width: 773.976px;
   color: #00F8F8;
-  font-size: 128px;
-  line-height: 109px;
-  letter-spacing: 4%;
+  font-size: 102.4px;
+  line-height: 87.2px;
+  letter-spacing: 3%;
   font-weight: bold;
   font-family: urbanist;
   margin-bottom: 0;
-  top: 55px;
-  margin-left: 8%;
+  top:6%;
+
 }
 .plug-and-play{
   position: absolute;
-  top:40%;
-  font-size: 36px;
+  top:38%;
+  font-size: 28.8px;
   font-weight: 300;
   font-family: poppins;
-  line-height: 37px;
+  line-height: 29.6px;
   color: white;
-  width: 945px;
-  height: 49px;
-  margin-left: 9%;
+  width: 756px;
+  height: 39.2px;
+ 
 }
 .what-we-do{
   position: absolute;
-  top: 52%;
+  top: 55%;
   margin: 0;
-  font-size: 48px;
+  font-size: 38.4px;
   font-family: urbanist;
   font-weight:700;
   color: cyan;
-  line-height: 48.6px;
-  width: 497px;
-  height: 70px;
-  margin-left: 9%;
-  margin-top: 50px;
-  padding-top: 0;
+  line-height: 38.88px;
+  width: 397.6px;
+  height: 56px;
+
 }
 .we-design-and-parent{
   position: absolute;
-  top: 65%;
-  width: 1519px;
-  margin-top: -10px;
+  top: 61%;
+  width: 1215.2px;
   background-color:#13131A;
-  opacity: 0.9;
+  opacity: 0.8;
   align-items: center;
-  margin-left: 9%;
-  padding:25px;
+  padding:25px 0px;
+  border-radius: 5px;
 }
 .we-design-and,.We-offer-airframe{
   width: 90%;
-  font-size: 24px;
+  font-size: 19.2px;
   font-family: poppins;
   align-items: center;
-  line-height: 37px;
-  letter-spacing: 0.48px;
-  padding-left: 3.5%;
+  line-height: 29.6px;
+  letter-spacing: .384px;
+  padding-left: 5%;
   color: white;
+  font-weight: 100;
 }
+
 
 .we-design-and{
   margin-top: 0;
@@ -104,8 +109,8 @@
 .urban-air-mobility {
   margin: 0;
   align-self: stretch;
-  font-size: 48px;
-  line-height: 89px;
+  font-size: 38.4px;
+  line-height: 72.2px;
   font-weight: 700;
   font-family: urbanist;
   z-index: 1;
@@ -114,17 +119,17 @@
 .with-the-age {
   /* height: 242px; */
   flex: 1;
-  line-height: 46px;
+  line-height: 38.4px;
   display: flex;
   align-items: center;
   width: 100%;
-  font-size: 24px;
-  font-weight: 200;
+  font-size: 19.2px;
+  font-weight: 100;
   font-family: poppins;
-  letter-spacing: 0.48;
+  /* letter-spacing: 0.3; */
 }
 .backgroundborder-child {
-  width: 324px;
+  width: 259px;
   position: relative;
   border-radius: 4.54px;
   max-height: 100%;
@@ -147,16 +152,14 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  padding: var(--padding-67xl) var(--padding-44xl);
+  padding:50px 60px;
   gap: var(--gap-83xl);
   z-index: 1;
   text-align: left;
-  font-size: var(--font-size-5xl);
   color: var(--white);
   font-family: var(--font-poppins);
 }
 .backgroundborder1,
-.frame-wrapper,
 .urban-air-mobility-parent {
   display: flex;
   align-items: flex-start;
@@ -169,15 +172,18 @@
   gap: 80px;
 }
 .frame-wrapper {
+  display: flex;
+  align-items: flex-start;
+  width: 80%;
   align-self: stretch;
   flex-direction: row;
   justify-content: center;
-  padding: 0 var(--padding-xl) 146.8px;
   box-sizing: border-box;
   text-align: center;
-  font-size: var(--font-size-29xl);
   color: var(--cyan);
-  font-family: var(--font-urbanist);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 17%;
 }
 .allpages{
   width: 100%;

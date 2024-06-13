@@ -109,11 +109,11 @@ const Product4 = () => {
 
               <div className="advanced-carbon-composite-stru-parent3">
                 <div className="advanced-carbon-composite-container3">
-                  <p className="advanced-carbon3">Advanced Carbon</p>
-                  <p className="composite-structure3">
+                  <p className="advanced-carbon31">Advanced Carbon</p>
+                  <p className="composite-structure31">
                     Composite Structuremated
                   </p>
-                  <p className="ejectionmode">Ejection Mode</p>
+                  <p className="ejectionmode1">Ejection Mode</p>
                 </div>
                 <div className="operating-temperature-10-to-wrapper3">
                   <div className="operating-temperature-container3">
@@ -125,9 +125,9 @@ const Product4 = () => {
                 </div>
                 <div className="g-shock-on-mounting-points-wrapper3">
                   <div className="g-shock-on-container3">
-                    <p className="g-shock-on3">3G Shock on</p>
+                    <p className="g-shock-on3">3G Shock on Mounting</p>
                     <p className="mounting-points3">
-                      Mounting Points above ground
+                       Points above ground
                     </p>
                   </div>
                 </div>
@@ -152,7 +152,7 @@ const Product4 = () => {
                 display: translateYValue > 70 ? "none" : "flex",
                 transition: "transform 0.2s",
                 position: "absolute",
-                marginTop: "70px",
+                marginTop: "90px",
               }}>
               <button
               onClick={handleButtonClick}

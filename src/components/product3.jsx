@@ -133,7 +133,7 @@ const Product3 = () => {
               display: translateYValue > 70 ? "none" : "flex",
               transition: "transform 0.2s",
               position: "absolute",
-              marginTop: "70px",
+              marginTop: "90px",
             }}
           >
             <button
