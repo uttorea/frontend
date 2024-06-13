@@ -241,7 +241,8 @@ height: 192.4px;
     ;
   }
   .home-inner2 {
-    padding-bottom: var(--padding-78xl);
+    padding-bottom: 0;
+    /* padding-bottom: var(--padding-78xl); */
     box-sizing: border-box;
     
   }
@@ -285,10 +286,14 @@ margin-top: 20px;
   }
 }
 @media screen and (max-width: 450px) {
+  .home-inner2{
+    width: 100%;
+    padding-bottom: 0;
+  }
   .discover-our-recovery {
    font-size: 32px;
     line-height: 35px;
-    padding-top: 150px;
+    /* padding-top: 150px;s */
   }
   
   .our-recovery-system {
@@ -320,7 +325,7 @@ margin-top: 20px;
   }
   .asentimageicon{
     width: 120.67px;
-    height: 150.2px;
+    height: 160.2px;
   }
   .decntmimageicon{
     padding-top: 10px;
@@ -331,16 +336,20 @@ margin-top: 20px;
   }
  
   .deassentmname,.assentmname{
-margin-top: 10px;
+margin-top: 6px;
+font-size: 12px;
   }
   .recoversectionimages{
 gap: 10px;
-margin-left: -29px;
+padding: 0;
+
   }
   
   .assentnmimagesection{
     margin-left: 0;
   }
-  
+  .frame-wrapper15{
+padding: 0;
+  }
   
 }

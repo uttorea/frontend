@@ -505,6 +505,9 @@ margin-right: auto;
   }
 }
 @media screen and (max-width: 450px) {
+  .frame-wrapper12{
+    width: 100%;
+  }
   .need-help-lets-container1 {
     font-size: var(--font-size-19xl);
     line-height: 50px;

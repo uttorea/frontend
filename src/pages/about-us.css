@@ -224,6 +224,7 @@
   }
   .aboutmaindiv{
     width: 100%;
+    margin-top: 0;
   }
   .rescue-safety {
     font-size: 17px;
@@ -310,5 +311,10 @@
   }
   .at-uttorea-our-mission-is-sim-wrapper{
 padding: 0;
+  }
+  .aboutusall{
+    width: 100%;
+   
+   
   }
 }

@@ -120,6 +120,7 @@
   @media screen and (max-width: 450px) {
    
     .home-inner8{
+      width: 100%;
       align-items: center;
     }
     .our-solution {

@@ -146,7 +146,7 @@
     gap: var(--gap-80xl);
   }
   .home-inner1 {
-    padding-bottom: var(--padding-273xl);
+    /* padding-bottom: var(--padding-273xl); */
     box-sizing: border-box;
   }
 }
@@ -196,6 +196,7 @@
     font-size: 32px;
     line-height: 40px;
     padding-top: 0;
+    font-weight: 700;
   }
   .at-uttoria-we {
    font-size: 16px;
@@ -218,7 +219,9 @@
   height: 270px;
  }
   .home-inner1{
-    padding-bottom: 80px;
+    /* width: 100%; */
+    padding-bottom: 20px;
+    margin-bottom: 0;
   }
   .backgroundborder-group {
     gap: var(--gap-6xl);
@@ -227,7 +230,7 @@
     margin-top: 0;
   }
   .autonomous-drone-safety-parent{
-    padding-top: 100px;
+    padding-top: 45px;
     font-size: 20px;
   }
   .unnamed-2-icon{

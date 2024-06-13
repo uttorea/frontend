@@ -202,6 +202,8 @@
     /* padding-top: var(--padding-41xl); */
     padding-bottom: var(--padding-29xl);
     box-sizing: border-box;
+    width: 100%;
+    height: auto;
   }
   .backgroundborderoverlayblur-icon11,
   .backgroundborderoverlayblur-icon12,

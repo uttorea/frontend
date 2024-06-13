@@ -124,11 +124,14 @@
 }
 
 /* Adjustments for screens up to 480px wide */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 450px) {
   .navbar {
     height: 50px;
     justify-content: space-between;
     padding: 0 10px;
+  }
+  .navbar-container{
+    width: 100%;
   }
   .logo1 {
     width: 70px;

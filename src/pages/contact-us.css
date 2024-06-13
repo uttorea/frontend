@@ -387,9 +387,15 @@ textarea.frame-child27{
   
 }
 @media screen and (max-width: 450px) {
-  .contectusdivmain{
+  .contectusall{
+    width: 100%;
     display: flex;
     flex-direction: column-reverse;
+
+  }
+  .contectusdivmain{
+    display: flex;
+    /* flex-direction: column-reverse; */
   }
   .contectusleft{
     width: 100%;
@@ -513,5 +519,7 @@ overflow: hidden;
     .subject-group1{
 width: 100%;
     }
-
+.subject21{
+  margin-left: 0;
+}
 }

@@ -38,6 +38,7 @@
   flex-wrap: wrap;
   align-items: flex-start;
   gap: 40px;
+  width: 71.5%;
   text-align: left;
   color: var(--color-white);
   font-family: var(--font-poppins);
@@ -250,6 +251,8 @@
   .our-customer {
     font-size: 32px;
     line-height: 35px;
+    font-weight: 700;
+    margin-top: 50px;
     
   }
   .home9 {
@@ -272,6 +275,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  width: 100%;
 
 
   }
@@ -281,6 +285,9 @@
     max-width: 120px; 
     margin: 10px; 
     
+  }
+  .backgroundborderoverlayblur-parent10 {
+    margin-top: 10px;
   }
   .rectangle-parent11 {
     gap: var(--gap-base);

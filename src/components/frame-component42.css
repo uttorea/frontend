@@ -246,7 +246,7 @@
 
     .explore-inflatable-airbags{
       font-size: 17px;
-      font-weight: 200;
+      font-weight: 100;
     }
     .explore-inflatable-airbags-sys-parent {
       padding-left: var(--padding-2xl);
@@ -317,14 +317,16 @@
     .multirotor-drone-for-container2,
     .multirotor-drone-for-container3 {
       font-size: 16px;
-      line-height: 37px;
+      line-height: 30px;
       font-weight: 100;
     }
     .explore-inflatable-airbags {
       line-height: 20px;
-      font-size: 16px;
+      font-size: 14px;
+    
     }
     .frame-parent44 {
+      width: 100%;
       gap: var(--gap-mini);
     }
      
@@ -352,6 +354,7 @@
    .sea-based-recovery3,.fixed-wing-drone6,.fixed-wing-drone5,
    .land-based-recovery3,.land-based-recovery3{
     font-size: 16px;
+    line-height: 20px;
   
    }
   .frame-parent45{
@@ -364,11 +367,19 @@
    }
    .frame-wrapper17{
     margin-top: 30px;
+    width: 100%;
    }
    .explore-inflatable-airbags-sys-parent{
+    width: 100%;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 5px;
    }
+   .vector-icon4 {
+    width: 11.2px;
+    height: 8.5px;
+    position: relative;
+
+  }
   }
   

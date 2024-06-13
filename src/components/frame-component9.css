@@ -162,6 +162,7 @@
     .cost-of-integration ,.cost-of-test-and-certificate{
       font-size:32px;
       line-height: 45px;
+      padding: 0;
     }
   
 .choose-h1{
@@ -169,6 +170,7 @@
 }
 .experience-and-turnaround-h2{
   font-size: 32px;
+  padding: 0;
 }
 .div1-choose, .div2-choose, .div3-choose{
   width: 90%;
@@ -180,11 +182,19 @@
 .cost-of-integration-p,
 .cost-of-test-p{
   font-size: 16px;
+  line-height: 30px;
+ 
+}
+.experience-and-turnaround-p{
+padding-top: 20px;
 }
 .why-choose-uttorea-discription{
   width: 100%;
   font-size: 16px;
   line-height: 35px;
+}
+.why-choose{
+  width: 100%;
 }
 }
 

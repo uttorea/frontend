@@ -293,8 +293,10 @@
   }
   .enhance-safety-with-inflatable-parent {
     gap: var(--gap-lgi);
+    margin-top: 50px;
   }
   .home-inner3 {
+    width: 100%;
     padding-bottom: var(--padding-37xl);
     box-sizing: border-box;
   }
