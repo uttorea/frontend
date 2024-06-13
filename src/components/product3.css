@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 99.2vh;
+    height:864px;
     width: 80%;
    color: white;
     position: relative;
@@ -12,7 +12,7 @@
  
   .ellipse {
     position: absolute;
-    top: 150px;
+    top: 180px;
     width:989.504px;
     height: 408px;
     border-radius: 50%;
@@ -21,7 +21,7 @@
 
   .overlay-image {
     position: absolute;
-    top:140px;
+    top:160px;
     width: 286.5px; 
     height: 414px;  
     border-radius: 40%; 
@@ -30,7 +30,7 @@
   }
   .overlay-imaged{
     position: absolute;
-    top:33%;
+    top:30%;
     width: 489px; 
     height: 296px;
     border-radius: 40%; 
@@ -412,7 +412,7 @@
   }
   .arsentm-series-offers-built-in-parent3 {
     display: flex;
-    margin-bottom:9%;
+    margin-bottom:14%;
     flex-direction: column;
     align-items: center;
     justify-content:center;
