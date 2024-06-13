@@ -349,7 +349,7 @@ margin-bottom: 10px;
 .frame-parent37 {
   align-self: stretch;
   flex-direction: row;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   /* gap: var(--gap-xl); */
   gap: 10%;
 }
@@ -465,13 +465,15 @@ margin-right: auto;
     flex-wrap: wrap;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 925px) {
   .need-help-lets-container1 {
     font-size: 34px;
-    line-height: 35px;
+    line-height: 28.8px;
+    width: 100%;
+    text-align: center;
   }
   .need-help-lets-discuss-you-group {
-    min-width: 100%;
+    width: 100%;
   }
   .lets1,
   .discuss1,
@@ -482,7 +484,10 @@ margin-right: auto;
   }
   .frame-parent35,
   .frame-parent37 {
-    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
   }
   .frame-parent34 {
     min-width: 100%;
@@ -492,17 +497,21 @@ margin-right: auto;
     gap: var(--gap-33xl);
   }
   .frame-wrapper12 {
-
+    margin-top: 20%;
     padding: 20px;
     box-sizing: border-box;
   }
   .whether-youre-seeking1{
     font-size: 17px;
-    line-height: 37px;
+    line-height: 28.8px;
   }
   .name2,.email2,.contact2,.subject2,.message2{
     font-size: 26px;
   }
+  .email-group {
+width: 320px;
+  }
+ 
 }
 @media screen and (max-width: 450px) {
   .frame-wrapper12{
@@ -596,5 +605,12 @@ margin-right: auto;
   }
   .allnames{
     width: 100%;
+  }
+  .frame-parent35,
+  .frame-parent37 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   
   }
 }

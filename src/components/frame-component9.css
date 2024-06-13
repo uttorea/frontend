@@ -124,32 +124,35 @@
     width: 1216px;
     line-height: 36.8px;
     font-size: 19.2px;
-    letter-spacing: 0.70px;
+    letter-spacing: 0.62px;
     z-index: 1;
     text-align: start;
     font-family: poppins;
 }
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 925px) {
     .choose-h1 {
       font-size: 34px;
       line-height: 35px;
     }
     .why-choose-uttorea {
-      /* gap: var(--gap-6xl); */
+      width: 100%;
     }
     .experience-and-turnaround-h2,.cost-of-integration,
     .cost-of-test-and-certificate{
-      font-size: 34px;
-      line-height: 45px;
+      font-size: 32px;
+      line-height: 40px;
     }
     .cost-of-test-p,.cost-of-integration-p,.experience-and-turnaround-p{
       font-size: 17px;
-      line-height: 35px;
+      line-height: 28.8px;
     }
     .why-choose-uttorea-discription{
       width: 100%;
       font-size: 17px;
-      line-height: 35px;
+      line-height: 28.8px;
+    }
+    .div1-choose{
+      padding-top: 50px;
     }
   }
   @media screen and (max-width: 450px) {

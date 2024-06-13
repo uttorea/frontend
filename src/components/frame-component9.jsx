@@ -43,7 +43,7 @@ const FrameComponent4 = () => {
         </div>
         <div className="why-choose-uttorea-discription">
           Our products offer best value to the technology we offer, with ease of
-          integration and certification compliance.<br/> Whether you need custom or
+          integration and certification compliance. Whether you need custom or
           off-the-shelf systems, Uttorea is your trusted partner in drone
           safety.
         </div>

@@ -7,7 +7,7 @@
     width: 100%;
     overflow: hidden;
     flex-shrink: 0;
-    box-shadow: var(--blue-blur);
+    /* box-shadow: var(--blue-blur); */
   }
   
   .multirotor-drone-for2,.sea-based-recovery2,
@@ -46,7 +46,7 @@
     max-width: 100%;
     overflow: hidden;
     flex-shrink: 0;
-    box-shadow: var(--blue-blur);
+    /* box-shadow: var(--blue-blur); */
   }
   .land-based-recovery2,
   .multirotor-drone-for3 {
@@ -78,7 +78,7 @@
     max-width: 100%;
     overflow: hidden;
     flex-shrink: 0;
-    box-shadow: var(--blue-blur);
+    /* box-shadow: var(--blue-blur); */
   
   }
   .fixed-wing-drone5,
@@ -111,7 +111,7 @@
     position: relative;
     border-radius: var(--br-base);
     max-width: 100%;
-    box-shadow: var(--blue-blur);
+    /* box-shadow: var(--blue-blur); */
     overflow: hidden;
     flex-shrink: 0;
   }
@@ -236,7 +236,7 @@
   }
    @media screen and (max-width: 1350px) {
    }
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 925px) {
     
     .frame-parent45 {
       display: flex;
@@ -266,15 +266,17 @@
     .fixed-wing-drone6,
     .land-based-recovery3{
       font-size: 17px;
-      line-height: 35px;
+      line-height: 28.8px;
   
     }
 
       
    .backgroundborderoverlayblur-icon7,.backgroundborderoverlayblur-icon8,
    .backgroundborderoverlayblur-icon9,.backgroundborderoverlayblur-icon10{
-    width: 100%;
+    width: 80%;
     height: auto;
+    margin-right: auto;
+    margin-left: auto;
    }
    .multirotor-drone-for-container2,.multirotor-drone-for-container3,
    .fixed-wing-drone-container2,.fixed-wing-drone-container3{

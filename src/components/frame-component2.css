@@ -22,7 +22,7 @@
   flex-shrink: 0;
   font-size: 38.4px;
   z-index: 1;
-  margin-top: 2%;
+  margin-top: 25px;
 }
 .backgroundborderoverlayblur-icon11 {
   align-self: stretch;
@@ -32,7 +32,7 @@
   max-width: 100%;
   flex-shrink: 0;
   z-index: 1;
-  box-shadow: var(--blue-blur);
+  /* box-shadow: var(--blue-blur); */
 
 }
 .small-medium1 {
@@ -56,7 +56,7 @@
   overflow: hidden;
   flex-shrink: 0;
   z-index: 1;
-  box-shadow: var(--blue-blur);
+  /* box-shadow: var(--blue-blur); */
 }
 .vtol-uam1 {
   align-self: stretch;
@@ -83,7 +83,7 @@
   overflow: hidden;
   flex-shrink: 0;
   z-index: 1;
-  box-shadow: var(--blue-blur);
+  /* box-shadow: var(--blue-blur); */
 }
 .inflatables-for-uav1 {
   align-self: stretch;
@@ -138,21 +138,22 @@
   /* padding-bottom: 11.7%; */
 
 }
-@media screen and (max-width: 1350px) {
+/* @media screen and (max-width: 1350px) {
   .frame-parent48 {
     justify-content: center;
     width: 100%;
     flex-direction: column;
     
   }
-}
-@media screen and (max-width: 900px) {
+} */
+@media screen and (max-width: 925px) {
   .download-brochure1 {
     font-size: 34px;
-    line-height: 35px;
+    line-height: 28.8px;
+    font-family: urbanist;
   }
   .frame-parent48 {
-    /* gap: var(--gap-12xl); */
+   
     gap: 10px;
     display: flex;
     flex-direction: row;
@@ -160,13 +161,16 @@
   }
   .rectangle-parent12 {
     gap: 60px;
+    width: 100%;
+    height: auto;
    
   }
   .inflatables-for-uav1,
   .small-medium1,
   .vtol-uam1 {
-   font-size: 17px;
+   font-size: 16px;
     line-height: 26px;
+   
   }
   .backgroundborderoverlayblur-icon11,
   .backgroundborderoverlayblur-icon12,

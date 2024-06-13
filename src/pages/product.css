@@ -1,5 +1,3 @@
-
-
 .productpage{
   width: 100%;
   margin: 0;
@@ -44,12 +42,12 @@
   font-weight: bold;
   font-family: urbanist;
   margin-bottom: 0;
-  top:6%;
+  top:30px;
 
 }
 .plug-and-play{
   position: absolute;
-  top:38%;
+  top: 270px;
   font-size: 28.8px;
   font-weight: 300;
   font-family: poppins;
@@ -61,7 +59,7 @@
 }
 .what-we-do{
   position: absolute;
-  top: 55%;
+  top: 380px;
   margin: 0;
   font-size: 38.4px;
   font-family: urbanist;
@@ -74,7 +72,7 @@
 }
 .we-design-and-parent{
   position: absolute;
-  top: 61%;
+  top: 430px;
   width: 1215.2px;
   background-color:#13131A;
   opacity: 0.8;
@@ -191,7 +189,7 @@
 
 @media screen and (max-width: 1800px) {
 }
-@media screen and (max-width: 1350px) {
+/* @media screen and (max-width: 1350px) {
   .backgroundborder1 {
     padding-left: var(--padding-12xl);
     padding-right: var(--padding-12xl);
@@ -203,22 +201,41 @@
   .frame-container {
     gap: var(--gap-65xl);
   }
-}
-@media screen and (max-width: 900px) {
+} */
+@media screen and (max-width: 925px) {
+  .productsectiontop{
+    width: 100%;
+  }
+ .productsectiontop{
+  margin-left: 80px;
+ }
+ .we-design-and,.We-offer-airframe{
+  font-size: 17px;
+ }
+ .we-design-and-parent{
+  width: 85%;
+ }
   .urban-air-mobility {
-    font-size: var(--font-size-19xl);
+    font-size:34px;
     line-height: 71px;
   }
   .with-the-age {
-    min-width: 100%;
+    width: 80%;
+    font-size: 17px;
+    font-weight: 100;
+    font-family: poppins;
+    line-height: 28.8px;
   }
   .backgroundborder1 {
     gap: var(--gap-32xl);
+    display: flex;
+    flex-direction: row;
   }
   .urban-air-mobility-parent {
     gap: var(--gap-14xl);
   }
   .frame-wrapper {
+    width: 95%;
     padding-bottom: 95px;
     box-sizing: border-box;
   }

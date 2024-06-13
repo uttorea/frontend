@@ -176,7 +176,7 @@
 
 
 }
-@media screen and (max-width: 1350px) {
+/* @media screen and (max-width: 1350px) {
   .backgroundborder-inner {
     flex: 1;
   }
@@ -194,26 +194,27 @@
     padding-bottom: var(--padding-114xl);
     box-sizing: border-box;
   }
-}
-@media screen and (max-width: 900px) {
+} */
+@media screen and (max-width: 925px) {
   .enhance-safety-with {
     font-size: 34px;
     line-height: 35px;
   }
 
   .backgroundborder-inner{
-    font-size: 17px;
-    font-weight: 200;
-    line-height: 35px;
+   
     flex-direction: row;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 0px;
     justify-content: center;
   }
+  .our-inflatable-solutions,.furthermore-we-integrate{
+    font-size: 17px;
+  }
   .our-inflatable-solutions-container {
-    font-size: 20px;
-    font-weight: 200;
-    line-height: 37px;
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 28.8px;
     flex-direction: row;
     width: 100%;
     height: 100%;
@@ -235,18 +236,23 @@
     margin-top: 80px;
   }
   .home-inner3 {
-    padding-bottom: var(--padding-67xl);
+    width: 100%;
     box-sizing: border-box;
   }
   
   .frame-wrapper16{
-    height: 220px;
-    width: 66%;
+    width: 216.5px;
   }
   .backgroundborder-inner {
     width: 216.5px;
     display: flex;
     position: relative;
+    }
+    .image-75-parent{
+      width: 216.5px;
+      object-fit: cover;
+      border-radius: 5px;
+      
     }
    
 

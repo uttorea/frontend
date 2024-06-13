@@ -9,7 +9,7 @@
   font-weight: 700;
   font-family: urbanist;
   z-index: 1;
-  margin-top: 10%;
+  margin-top:120px;
 }
 .generateanimageshowcasinguttor-icon {
   margin-top: -38px;
@@ -181,7 +181,7 @@
   margin-top: 50px;
 }
 
-@media screen and (max-width: 1350px) {
+/* @media screen and (max-width: 1350px) {
   .generateanimageshowcasinguttor-parent {
     flex: 1;
     padding-top: var(--padding-4xl);
@@ -194,22 +194,39 @@
     padding-right: var(--padding-13xl);
     box-sizing: border-box;
   }
-}
+} */
 @media screen and (max-width: 925px) {
+  .frame-wrapper11{
+    width: 95%;
+  }
   .custom-drone-recovery2 {
-    font-size: var(--font-size-19xl);
+    font-size: 34px;
+    font-family: urbanist;
+    /* font-size: var(--font-size-19xl); */
     line-height: 71px;
   }
   .generateanimageshowcasinguttor-parent {
     padding-top: var(--padding-xl);
-    padding-bottom: var(--padding-165xl);
+    /* padding-bottom: var(--padding-165xl); */
     box-sizing: border-box;
-    min-width: 100%;
+    /* width: 100%; */
   }
   .uttoria-offers-oem-integration-wrapper {
-    min-width: 100%;
+    width: 100%;
+    padding-top: 0;
+    
+  }
+  .uttoria-offers-oem,.our-engineering,.with-uttoria-as{
+font-size: 17px;
+font-weight: 100;
+font-family: poppins;
+
+  }
+  .our-engineering,.with-uttoria-as{
+    margin-top: 25px;
   }
   .backgroundborder6 {
+    width: 100%;
     gap: var(--gap-16xl);
     padding-top: var(--padding-25xl);
     padding-bottom: var(--padding-25xl);

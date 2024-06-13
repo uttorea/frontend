@@ -213,13 +213,13 @@ height: 192.4px;
 
 
 
-@media screen and (max-width: 1350px) {
+/* @media screen and (max-width: 1350px) {
   .home-inner2 {
     padding-bottom: var(--padding-131xl);
     box-sizing: border-box;
   }
-}
-@media screen and (max-width: 900px) {
+} */
+@media screen and (max-width: 925px) {
   .discover-our-recovery {
     font-size: 34px;
     margin: 0;
@@ -237,11 +237,12 @@ height: 192.4px;
   }
   .our-recovery-system{
     font-size: 17px;
-    line-height: 35px
-    ;
+    line-height: 28.8px;
   }
   .home-inner2 {
+    width: 100%;
     padding-bottom: 0;
+    padding-top: 0;
     /* padding-bottom: var(--padding-78xl); */
     box-sizing: border-box;
     
@@ -249,7 +250,7 @@ height: 192.4px;
   .explore-our-range{
     font-size: 17px;
     margin-top: 20px;
-    line-height: 35px;
+    line-height: 28.8px;
   }
 
   .dessentnmimagesection,.assentnmimagesection{

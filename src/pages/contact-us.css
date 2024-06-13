@@ -128,7 +128,7 @@ gap: 48px;
 }
 .your-full-name21 ,.phno-name271,.reason-for-the21,.emailinput1{
   font-size: 19.2px;
-  line-height: 38.4px;
+  line-height: 28.8px;
   font-family: urbanist;
   background: transparent;
   border: none;
@@ -192,6 +192,7 @@ width: 100%;
   font-weight: 400;
   font-family: poppins;
   margin-top: 0;
+
 }
 
 .forsalehead h1{
@@ -261,7 +262,7 @@ margin-bottom: 220px;
 @media screen and (max-width: 1350px) {
 
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 925px) {
   .contectusmain{
     width: 100%;
     
@@ -332,7 +333,7 @@ margin-bottom: 220px;
     font-size: 18px;
   }
  .frame-parent341{
-  width: 55%;
+  width: 60%;
  }   
  .name21, .contact21,.email21,.subject21,.message21{
   font-size: 26px;  
@@ -348,12 +349,17 @@ margin-bottom: 220px;
   font-size: 22px;
  
 }
+.emailinput1{
+  width: 85%;
+}
 .reason-for-the21{
   margin-left: 0;
+  margin-top: 9px;
+  
 }
 .frame-parent371{
-  gap: 70px;
-  width: 90%;
+  gap: 10px;
+  width: 100%;
   margin-top: 0;
 }
 .frame-parent351{
@@ -383,7 +389,12 @@ textarea.frame-child27{
   padding-top: 20px;
   width: 306.28px;
 }
-  
+  .contectusall{
+    width: 100%;
+  }
+  .subject-group{
+    width: 100%;
+  }
   
 }
 @media screen and (max-width: 450px) {

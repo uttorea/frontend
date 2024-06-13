@@ -136,6 +136,8 @@ const FrameComponent1 = () => {
                       </div>
                     </div>
                   </div>
+
+                  
                   <div className="subject-group">
                     <div className="subject2">{`Subject `}</div>
                     <div className="rectangle-parent9">

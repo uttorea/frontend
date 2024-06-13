@@ -23,7 +23,7 @@
   bottom:0px;
   left: 0;
   width: 100%;
-  height: 20%;
+  height: 100%;
   top: 75%;
   opacity: 100%;
  /* background-color: red; */
@@ -731,7 +731,7 @@
     flex-wrap: wrap;
   }
 }
-@media screen and (max-width: 1350px) {
+/* @media screen and (max-width: 1350px) {
  
   .home-inner {
     box-sizing: border-box;
@@ -743,17 +743,24 @@
   }
   .frame-footer,
   .home-child {
-    /* padding-bottom: 214px; */
     box-sizing: border-box;
   }
   .frame-footer {
     gap: var(--gap-65xl);
-    /* padding-bottom: 178px; */
+   
   }
-}
-@media screen and (max-width: 900px) {
+} */
+@media screen and (max-width: 925px) {
  .home2{
   width: 100%;
+ }
+ .background-video{
+  width: 100%;
+ }
+ .gradient-overlayhome{
+  margin-bottom: 0;
+  bottom: 0;
+  /* top: 30%; */
  }
   .home-inner {
     width: 100%;
@@ -761,17 +768,15 @@
     height: 400px;
     box-sizing: border-box;
   }
-  .gradient-overlayhome{
-    bottom: -194px;
-  }
+  
   .safety-is-paramount{
     font-size: 17px;
-    line-height: 35px;
+    line-height: 28.8px;
    }
   .empowering-unmanned-aerial-container {
     font-size: var(--font-size-19xl);
     line-height: 71px;
-     margin-top: 130px;
+     margin-top: 30px;
      
   }
   .empowering-unmanned-aerial-op-parent {
@@ -779,6 +784,7 @@
     
   }
   .home-child {
+    width: 100%;
     margin-top: 200px;
     padding: 0;
     margin-bottom: 0;

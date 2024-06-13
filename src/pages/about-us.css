@@ -206,7 +206,7 @@
   font-family: var(--font-urbanist);
   
 }
-@media screen and (max-width: 1250px) {
+/* @media screen and (max-width: 1250px) {
   .backgroundborder {
     padding-left: var(--padding-21xl);
     padding-right: var(--padding-21xl);
@@ -215,25 +215,30 @@
   .about-us1 {
     gap: 109px;
   }
-}
-@media screen and (max-width: 900px) {
+} */
+@media screen and (max-width: 925px) {
   .uttorea {
-    font-size: 64px;
+    font-size: 70px;
     line-height: 35px;
+    margin-top: 25%;
     padding-bottom: 0;
+  }
+  .aboutusall{
+    width: 100%;
   }
   .aboutmaindiv{
     width: 100%;
     margin-top: 0;
   }
   .rescue-safety {
-    font-size: 17px;
+    font-size: 19.8px;
     line-height: 35px;
   }
   .at-uttorea-our{
     width: 100%;
     font-size: 17px;
-    line-height: 35px;
+    line-height: 28.8px;
+    font-weight: 500;
   }
   .our-story{
     font-size: 34px;
