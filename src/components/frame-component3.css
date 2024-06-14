@@ -252,9 +252,18 @@ font-family: poppins;
     line-height: 36px;
     margin-bottom: 0;
   }
+  .generateanimageshowcasinguttor-parent {
+    width: 100%;
+  }
+  .img1{
+    object-fit: cover;
+    width: 100%;
+  }
 
   .backgroundborder6 {
     gap: var(--gap-lg);
+    display: flex;
+    flex-direction: column;
   }
   
   .uttoria-offers-oem
