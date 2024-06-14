@@ -18,17 +18,18 @@
   width: 103%;
   position: relative;
 }
-.gradient-overlayhome {
+/* .gradient-overlayhome {
   position: absolute;
   bottom:0px;
   left: 0;
   width: 100%;
-  height: 100%;
-  top: 75%;
+  height: 20%;
+  top:100%;
   opacity: 100%;
- /* background-color: red; */
+background-color: #252525;
+
   pointer-events: none; 
-}
+} */
 
 
 .home-inner{
@@ -814,6 +815,9 @@
   }
   .homepagemainimage{
     width: 100%;
+  }
+  .gradient-overlayhome {
+    top: 510px;
   }
 
 }

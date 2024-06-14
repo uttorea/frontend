@@ -10,7 +10,7 @@
   background: none;
   border: none;
   font-size: 30px;
-  color: #fff;
+  color:gray;
   cursor: pointer;
 }
 
@@ -37,13 +37,16 @@
   border-radius: 10px;
   width: 1196px;
   height: 700px;
-  max-width: 100%;
+  width: 80%;
   text-align: center;
   color: #a0f9ff;
   display: flex;
   flex-direction: column;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border: 1px solid  rgba(0, 0, 0, 0.1);
+
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .popup-content27 .One-last-step {
@@ -67,7 +70,7 @@
   padding: 0;
   margin: 12px;
   color: #3B69B2;
-  font-size: 24px;
+  font-size: 19.2px;
   font-family: urbanist;
   font-weight: 400;
   letter-spacing: 4%;
@@ -78,7 +81,8 @@
   margin-top: 30px;
   gap: 100px;
   width: 80%;
-  padding-left: 150px;
+  padding-left: 100px;
+  padding-right: 250px;
 }
 .nameemail{
   display: flex;
@@ -114,7 +118,7 @@
 }
 
 .submit-btn27 {
-  font-size: 24px;
+  font-size:19.2px;
   padding: 10px 35px;
   background: transparent;
   color: white;
@@ -142,7 +146,7 @@
 .privacy-text27 {
   margin-top: 60px;
   color: #3B69B2;
-  font-size: 24px;
+  font-size: 19.2px;
   font-family: urbanist;
   width: 100%;
   font-weight: 400;
@@ -226,7 +230,7 @@
     align-items: center;
   }
   .popup-content27 {
-    background: #2e2e2e;
+    
     padding: 20px;
     border-radius: 10px;
     max-width: 80%;
@@ -265,7 +269,7 @@
   }
   .popup-btn-submit {
     margin: 0;
-    margin-left: 50px;
+    /* margin-left: 50px; */
   }
   .form-group27 label {
     font-size: 18px;
@@ -298,6 +302,9 @@
     top: 40%;
     left: 0;
     right: 0;
+  }
+  .close-btn27{
+    top: 1px;
   }
 }
 

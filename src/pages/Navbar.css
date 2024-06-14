@@ -88,6 +88,20 @@
   cursor: pointer;
   font-size: var(--font-size-5xl);
 }
+.navbar-item,
+.mobile-menu-item {
+    padding: 10px;
+    cursor: pointer;
+  
+}
+
+.navbar-item.active,
+.mobile-menu-item.active {
+    color:cyan; 
+    font-size: 26px;
+    font-weight: bold; 
+    
+}
 
 /* Adjustments for screens up to 925px wide */
 @media screen and (max-width: 925px) {

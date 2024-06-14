@@ -9,6 +9,7 @@ const FrameComponent = () => {
       <hr className='hruper'/>
       <div className="footer-top">
         <div className="footer-section-1">
+          
           <img
             className="logo-footer"
             loading="lazy"
