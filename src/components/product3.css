@@ -222,7 +222,9 @@
 
   }
 
-
+  .composite-structure31{
+    width: 265px;
+  }
   .advanced-carbon3,
   .composite-structure3 {
     font-size: 19.2px;
@@ -674,12 +676,16 @@ width: 100px;
     .composite-structure31,.ejectionmode1{
       font-size: 12px;
       width: 160px;
-     left: 150px;
+     line-height: 10px;
+      left: 150px; 
       position: relative;
       /* right: 120px; */
       top: -30px;
     }
-    
+    .composite-structure31{
+      left: 130px;
+      width: 165px;
+    }
     .operating-temperature-10-to-wrapper3 {
       width: 0;
     }
@@ -690,7 +696,7 @@ width: 100px;
       font-size: 12px;
       width: 155px;
       position: relative;
-      left: 160px;
+      left: 155px;
       bottom:50px;
     }
     .g-shock-on-mounting-points-wrapper3 {
@@ -707,7 +713,7 @@ width: 100px;
      line-height: 10px;
       position: relative;
       left: 190px;
-     bottom: 30px;
+     bottom: 50px;
     }
     .mounting-points3{
       line-height: 15px;

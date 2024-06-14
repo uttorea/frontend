@@ -477,6 +477,10 @@ textarea.frame-child27{
     font-size: 22px;
    
   }
+  .emailinput1{
+    width: 100%;
+  }
+
   .frame-parent351{
     display: flex;
    flex-direction: column;
