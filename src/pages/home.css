@@ -760,11 +760,13 @@ background-color: #13131A;
  }
  .background-video{
   width: 100%;
+  
  }
  .gradient-overlayhome{
   margin-bottom: 0;
   bottom: 0;
-  /* top: 30%; */
+  top: 30%;
+  height: 20%;
  }
   .home-inner {
     width: 100%;
