@@ -13,7 +13,7 @@ import Navbar from "./Navbar";
 import gradient from "../assert/Gradient.png"
 import { useNavigate } from "react-router-dom";
 import "./home.css";
-import backGround from "../assert/uttoriav.mp4";
+import backGround from "../assert/Uttorea.mp4";
 
 const Home = () => {
   const location = useLocation();
@@ -38,9 +38,9 @@ const Home = () => {
             <source src={backGround} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-          {/* <div className="gradient-overlayhome">
+          <div className="gradient-overlayhome">
             <img src={gradient} alt="home "/>
-          </div> */}
+          </div>
         </section>
 
         <section className="home-child">

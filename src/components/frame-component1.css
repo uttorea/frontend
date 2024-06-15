@@ -510,9 +510,7 @@ margin-right: auto;
   .name2,.email2,.contact2,.subject2,.message2{
     font-size: 26px;
   }
-  .email-group {
-width: 320px;
-  }
+ 
  
 }
 @media screen and (max-width: 450px) {

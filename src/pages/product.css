@@ -258,10 +258,12 @@
   .urban-air-mobility {
     font-size: 32px;
     line-height: 53px;
+    margin-top: 120px;
   }
   .with-the-age {
     font-size:16px;
-    line-height: 37px;
+    line-height: 28.8px;
+    font-weight: 100;
   }
   .backgroundborder1 {
     gap: var(--gap-6xl);
@@ -307,15 +309,18 @@
   }
   .we-design-and-parent{
     width: 85%;
-    top: 200px;
+    top: 210px;
+    font-weight: 100;
   }
   .we-design-and{
     font-size: 16px;
-    line-height: 35px;
+    line-height: 28.8px;
+    font-weight: 100;
   }
   .We-offer-airframe{
     font-size: 16px;
-    line-height: 35px;
+    line-height: 28.8px;
+    font-weight: 100;
   
   }
   .productTopImage{

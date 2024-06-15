@@ -80,6 +80,7 @@
 
 .mobile-menu.open {
   right: 0;
+  top: 50px;
 }
 
 .mobile-menu-item {
@@ -126,6 +127,13 @@
     align-items: center;
     justify-content: center;
   }
+  .navbar-item.active,
+.mobile-menu-item.active {
+    color:cyan; 
+    font-size: 20px;
+    font-weight: bold; 
+    
+}
 }
 
 /* Adjustments for screens up to 700px wide */

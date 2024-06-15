@@ -311,13 +311,14 @@
     padding-top: 20px;
     font-size: 16px;
     align-items: center;
-    line-height: 37px;
-    font-weight: 200;
+    line-height: 28.8px;
+    font-weight: 100;
     height: 100%;
    
     }
     .our-inflatable-solutions,.furthermore-we-integrate{
       font-size: 16px;
+      line-height: 28.8px;
     }
   .image-75-parent{
     height: 180px;

@@ -283,10 +283,10 @@
     font-size: 16px;
     width: 90%;
     flex-direction: column;
-    line-height:30px;
+    line-height:28.8px;
     padding: 10px;
     padding-top: 30px;
-    font-weight: 600;
+    font-weight: 400;
   }
   .frame-group {
     gap: 0;
@@ -298,12 +298,15 @@
   }
   .imbibing-the-qualities-container {
     font-size: 16px;
-    line-height: 37px;
+    line-height: 28.8px;
     margin-top:5%;
+    
   }
   .backgroundborder {
     padding-top: var(--padding-25xl);
     padding-bottom: var(--padding-25xl);
+    padding-left: 40px;
+    padding-right: 40px;
     box-sizing: border-box;
   }
   .our-story-parent {
