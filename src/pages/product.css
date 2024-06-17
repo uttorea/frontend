@@ -291,9 +291,9 @@
   }
   .recoverysystemh1{
     width: 60%;
-    /* margin-top: 30%; */
+    margin-top: 7.5%;
     margin-bottom: 0;
-    line-height: 35px;
+    line-height: 28.8px;
     font-size: 32px;
   }
   .plug-and-play{
@@ -305,7 +305,7 @@
   .what-we-do{
     width: 70%;
     font-size: 32px;
-    top: 160px;
+    top: 170px;
   }
   .we-design-and-parent{
     width: 85%;

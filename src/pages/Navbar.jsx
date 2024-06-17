@@ -46,7 +46,7 @@ const Navbar = () => {
             <div className={`mobile-menu ${isMenuOpen ? 'open' : ''}`}>
                 <div className={`mobile-menu-item ${isActive("/") ? "active" : ""}`} onClick={() => handleNavigation("/")}>Home</div>
                 <div className={`mobile-menu-item ${isActive("/product") ? "active" : ""}`} onClick={() => handleNavigation("/product")}>Parachute recovery system</div>
-                <div className={`mobile-menu-item ${isActive("/inflatable") ? "active" : ""}`} onClick={() => handleNavigation("/inflatable")}>Inflatable airbags system</div>
+                <div className={`mobile-menu-item ${isActive("/inflatable") ? "active" : ""}`} onClick={() => handleNavigation("/")}>Inflatable airbags system</div>
                 <div className={`mobile-menu-item ${isActive("/about-us") ? "active" : ""}`} onClick={() => handleNavigation("/about-us")}>About us</div>
                 <div className={`mobile-menu-item ${isActive("/contact-us") ? "active" : ""}`} onClick={() => handleNavigation("/contact-us")}>Contact Us</div>
             </div>
