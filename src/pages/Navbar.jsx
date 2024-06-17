@@ -35,7 +35,7 @@ const Navbar = () => {
                 <div className="navbar-menu">
                     <div className={`navbar-item ${isActive("/") ? "active" : ""}`} onClick={() => handleNavigation("/")}>Home</div>
                     <div className={`navbar-item ${isActive("/product") ? "active" : ""}`} onClick={() => handleNavigation("/product")}>Parachute recovery system</div>
-                    <div className={`navbar-item ${isActive("/inflatable") ? "active" : ""}`} onClick={() => handleNavigation("/inflatable")}>Inflatable airbags system</div>
+                    <div className={`navbar-item ${isActive("/inflatable") ? "active" : ""}`} onClick={() => handleNavigation("/")}>Inflatable airbags system</div>
                     <div className={`navbar-item ${isActive("/about-us") ? "active" : ""}`} onClick={() => handleNavigation("/about-us")}>About us</div>
                     <div className={`navbar-item ${isActive("/contact-us") ? "active" : ""}`} onClick={() => handleNavigation("/contact-us")}>Contact Us</div>
                 </div>

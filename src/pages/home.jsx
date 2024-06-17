@@ -39,7 +39,7 @@ const Home = () => {
             Your browser does not support the video tag.
           </video>
           <div className="gradient-overlayhome">
-            <img src={gradient} alt="home "/>
+            {/* <img src={gradient} alt="home "/> */}
           </div>
         </section>
 

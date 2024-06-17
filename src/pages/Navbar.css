@@ -33,9 +33,9 @@
 
 .logo1 {
   cursor: pointer;
-  width: 83.344px;
+  width: 75.344px;
   padding: 0px;
-  height: 73.6px;
+  height: 60.6px;
 }
 
 .navbar-menu {
@@ -119,8 +119,8 @@
 
   }
   .logo1 {
-    width: 80px;
-    height: 60px;
+    width: 65px;
+    height: 55px;
   }
   .navbar {
     height: 60px;
@@ -163,8 +163,8 @@
     width: 100%;
   }
   .logo1 {
-    width: 70px;
-    height: 50px;
+    width: 60px;
+    height: 45px;
   }
   .hamburger-menu {
     font-size: var(--font-size-3xl);
