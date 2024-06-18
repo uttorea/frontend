@@ -205,6 +205,12 @@
   }
 } */
 @media screen and (max-width: 925px) {
+  .productpagemain{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+  }
   .productsectiontop{
     width: 100%;
   margin-left: 80px;

@@ -37,18 +37,18 @@
   font-family: inherit;
   display: inline-block;
   text-shadow: 1px 0 0#3b69b2, 0 1px 0#3b69b2, -1px 0 0#3b69b2, 0-1px 0#3b69b2;
-  max-width: 100%;
+  width: 100%;
   z-index: 1;
 }
 .whether-youre-seeking1 {
   align-self: stretch;
   position: relative;
-  font-size: var(--font-size-5xl);
-  line-height: 50px;
+  font-size: 19.2px;
+  line-height: 35px;
   color: var(--color-gray-800);
   white-space: pre-wrap;
   z-index: 1;
-  font-weight: 200;
+  font-weight: 100;
   padding-top: 40px;
 }
 .need-help-lets-discuss-you-group {
@@ -444,7 +444,7 @@ margin-bottom: 10px;
   /* gap: var(--gap-84xl-5); */
 }
 .frame-wrapper12 {
-  padding-bottom: 14%;
+  padding-bottom: 12%;
   align-self: stretch;
   justify-content: center;
   padding-top: 14%;
