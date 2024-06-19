@@ -35,7 +35,7 @@ const Product = () => {
           </div>
         </div>
 
-        <div className="allpages ">
+        <div className="allpages">
           <Product3 id="asentm" />
           <FrameComponent4 />
           <Product4 id="dicerisTm" />

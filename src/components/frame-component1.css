@@ -490,6 +490,10 @@ margin-right: auto;
     flex-direction: row;
     /* flex-wrap: wrap; */
   }
+  .frame-parent37 {
+    gap: 14%;
+  }
+
   .frame-parent34 {
     min-width: 100%;
     margin-bottom: 70px;
@@ -509,6 +513,9 @@ margin-right: auto;
   }
   .name2,.email2,.contact2,.subject2,.message2{
     font-size: 26px;
+  }
+  .namecontect{
+    gap:14%;
   }
  
  
