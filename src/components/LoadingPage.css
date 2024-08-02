@@ -16,6 +16,14 @@
 
 /* Media query for mobile devices */
 @media (max-width: 600px) {
+  .loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(55, 55, 55);
+    overflow: hidden; /* To ensure no scrollbars appear */
+  }
+
   .loading-video {
     width: 150px; /* Adjust the width for mobile view */
     height: 150px; /* Adjust the height for mobile view */
