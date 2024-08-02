@@ -47,6 +47,7 @@
   align-items: center;
   font-family: 'Urbanist';
   font-weight: 400;
+
 }
 
 .navbar-item {
@@ -54,6 +55,7 @@
   font-size: 22px;
   /* font-size: var(--font-size-5xl); */
   /* padding-left: 20px; */
+  
 }
 
 .hamburger-menu {
@@ -161,6 +163,7 @@
   }
   .navbar-container{
     width: 100%;
+    
   }
   .logo1 {
     width: 60px;
@@ -176,5 +179,7 @@
   .mobile-menu-item {
     font-size: var(--font-size-3xl);
     padding: var(--padding-2xs) var(--padding-lg);
+    background-color: rgb(55, 55, 55);
+
   }
 }
