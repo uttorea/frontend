@@ -80,7 +80,7 @@ function App() {
     // Simulate a delay (like fetching data) before setting loading to false
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 1000);
+    }, 4000);
 
     return () => clearTimeout(timer);  // Cleanup timer on unmount
   }, [pathname]);  // Depend on pathname to trigger on route change
