@@ -4,12 +4,12 @@
   align-items: center;
   height: 100vh;
   width: 100vw;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(55, 55, 55);
   overflow: hidden; /* To ensure no scrollbars appear */
 }
 
 .loading-video {
-  width: 100vw; /* Adjust size as needed */
-  height: 100vh; /* Adjust size as needed */
-  object-fit: contain; /* Ensures the video fits within the specified area */
+  width: 200px;
+  height: 200px;
+  object-fit: cover; /* Ensures the video covers the entire area */
 }
