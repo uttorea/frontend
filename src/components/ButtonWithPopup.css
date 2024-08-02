@@ -30,7 +30,7 @@
 }
 
 .popup-content27 {
-  background:  rgba(0, 0, 0, 0.1); 
+  background: rgb(0 0 0 / 30%);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   padding: 20px;
