@@ -58,7 +58,7 @@ const FrameComponent1 = () => {
     try {
       // const response = await axios.post('http://localhost:8000/api/contact/', formData);
       const response = await axios.post(
-        "https://alexrai.pythonanywhere.com/havea/",
+        "https://alexrai.pythonanywhere.com/contact/",
         formData
       );
       console.log("Form submitted successfully:", response.data);
