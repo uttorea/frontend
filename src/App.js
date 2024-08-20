@@ -29,24 +29,24 @@ function App() {
 
     switch (pathname) {
       case "/":
-        title = "Home";
+        title = "Uttorea";
         metaDescription = "Welcome to our home page.";
         break;
       case "/about-us":
-        title = "About Us";
+        title = "Uttorea";
         metaDescription = "Learn more about us.";
         break;
       case "/product":
-        title = "Product";
+        title = "Uttorea";
         metaDescription = "Check out our products.";
         break;
       case "/contact-us":
-        title = "Contact Us";
+        title = "Uttorea";
         metaDescription = "Get in touch with us.";
         break;
       default:
-        title = "React App";
-        metaDescription = "A sample react application.";
+        title = "Uttorea";
+        metaDescription = "Uttorea";
     }
 
     if (title) {
